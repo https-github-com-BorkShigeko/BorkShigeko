@@ -1,0 +1,157 @@
+/*************全ページ共通のCSS*************/
+/*************初期設定*************/
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    font-size: 1.4rem;
+    color: #000;
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        font-size: 1.4rem;
+    }
+}
+
+.ja {
+    /*font-family: 'Noto-Serif','Noto Serif', serif !important;*/
+    /*font-family: 'Noto Serif', "Yu Mincho Pr6";*/
+    font-family: 'Noto Serif JP', serif;
+}
+
+.en {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1,h2,h3 ,h4 {
+    font-weight: inherit;
+}
+
+.paragraph {
+    line-height: 1.6;
+}
+
+.c {
+    color: #A7C9D6;
+    /*color: #9efffc;*/
+}
+
+.logo {
+    width: 76px;
+    height: 60px;
+    background: url(/img/logo.svg) center center no-repeat;
+    background-size: contain;
+}
+
+.myGlobalNav {
+    background: #FFF;
+}
+
+.myGlobalNav .inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.myGlobalNav li {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.myGlobalNav li:last-of-type {
+    margin-bottom: 0;
+}
+
+.myMenuContainer {
+    width: 100%;
+}
+
+.myImg {
+    padding-top: 55%;
+    overflow: hidden;
+    height: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .logo {
+        width: 100px;
+        height: 65px;
+        background-size: contain;
+    }
+
+    .header .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .myGlobalNav ul {
+        display: flex;
+    }
+
+    .myGlobalNav li {
+        display: block;
+        line-height: 1;
+        font-size: 1.4rem;
+        margin: 0 0 0 20px;
+        padding: 0;
+        border-bottom: 0;
+        font-weight: normal;
+    }
+}
+
+/*************追加分*************/
+/*デザイン系*/
+html {
+    font-size: 3.125vw;
+}
+.myBack {
+    background: #B4A7D6;
+}
+
+.myBack2 {
+    background: #fff;
+}
+
+/*全体共有パーツ*/
+.inner {
+    padding: 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*デザイン*/
+    .inner {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape){
+    /*デザイン*/
+    .inner {
+        padding: 0 160px;
+    }
+
+}
