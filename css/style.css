@@ -131,13 +131,12 @@ html {
     padding: 0 2rem;
 }
 
-/*sakurako*/
+/*sakurako-mv*/
 #mv .mySectionInner{
     min-height: 54.3rem;
     background: url("/img/MV_background.jpg") center center;
     background-size: cover;
     position: relative;
-
 }
 
 #mv .myTag{
@@ -224,6 +223,89 @@ html {
     height: 9.4rem;
 }
 
+/*Sakurako-intro*/
+#intro .mySectionInner{
+    min-height: 43.6rem;
+    background: url("/img/Intro-background.jpg") center center;
+    background-size: cover;
+    position: relative;
+}
+
+#intro .myIntroTitleBack{
+    position: absolute;
+    left:-3.8rem;
+    top: 0rem;
+    width: 48.9rem;
+    height: 23.6rem;
+
+}
+#intro .myIntroTitle{
+    position: absolute;
+    top: 1.65rem;
+    left: 0.76rem;
+}
+#intro .myIntroTitle h2{
+    color: #ffffff;
+    transform: rotate(-7deg);
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+#intro .myIntroTitle span{
+    display: inline;
+}
+
+#intro .myIntroTitle .myIntroTitle2 {
+    font-size: 3.1rem;
+}
+
+#intro .myIntroPhrase{
+    position: absolute;
+    top: 8.2rem;
+    left: 13.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.myIntroDetailBack{
+    position: absolute;
+    top: 17.5rem;
+    left: 16rem;
+    width: 14.3rem;
+    height: 14.3rem;
+}
+
+#intro .myIntroDetail{
+    position: absolute;
+    top: 22rem;
+    left: 18.4rem;
+    text-align: center;
+    width: 9.6rem;
+    line-height: 1.3;
+
+}
+
+#intro .myIntroDetail h3{
+    font-size: 0.8rem;
+}
+
+#intro .myIntroDetail p{
+    font-size: 0.5rem;
+    display: block;
+}
+
+#intro .myIntroModel{
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    height: 32.3rem;
+    width: 34.6rem;
+
+}
 
 @media screen and (min-width: 768px) {
     html {
