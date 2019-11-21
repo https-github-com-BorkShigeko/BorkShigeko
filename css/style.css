@@ -151,7 +151,6 @@ html {
     color: #ffffff;
     text-align: right;
     line-height: 1.2;
-
 }
 #mv .myTitle{
     position: absolute;
@@ -304,7 +303,203 @@ html {
     right: 0rem;
     height: 32.3rem;
     width: 34.6rem;
+}
 
+/*sakurako-target*/
+#target .mySectionInner{
+    min-height: 29.6rem;
+    background: url("/img/target-background.jpg") center center;
+    background-size: cover;
+    position: relative;
+}
+
+#target .myTargetHeaderBack{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width:32rem;
+    height: 6.6rem;
+}
+#target .myTargetHeader h2{
+    position: absolute;
+    top: 1.7rem;
+    left: 2.7rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 26.6rem;
+}
+#target .myTargetChecklist{
+    position: absolute;
+    top:8.4rem;
+    left: 4.3rem;
+    width: 23.4rem;
+    height: 17.8rem;
+}
+
+/*
+#target .myTargetCheckInner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#target .myTargetCheckText{
+    position: absolute;
+    top: 9.9rem;
+    left: 5.3rem;
+}
+
+#target .myTargetCheckText ul {
+    list-style-image:none;
+}
+#target .myTargetCheckText li{
+    padding-left:1rem;
+    background-image:url("/img/checklist.png");
+    background-repeat:no-repeat;
+}*/
+
+/*sakurako-first*/
+#first .mySectionInner{
+    min-height: 80.5rem;
+    background: url("/img/first-back.jpg") center center;
+    background-size: cover;
+    position: relative;
+}
+
+#first .myFirstTitle{
+    position: absolute;
+    left: 2.3rem;
+    top:2.5rem;
+}
+
+#first .myFirstTitleTitle h2{
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2;
+}
+
+#first .myFirstTitle span{
+    display: block;
+    font-size: 1.4rem;
+}
+
+#first .myFirstTitle2 span{
+    display: inline;
+}
+
+#first .myFirstTitle2 .myFirstTitle2-1{
+    font-size: 2.0rem;
+}
+
+#first .myFirstTitle2 .myFirstTitle2-2{
+    font-size: 1.7rem;
+}
+
+#first .myFirstMatsuo{
+    position: absolute;
+    top: 8.4rem;
+}
+#first .myFirstMatsuo h3{
+    position: absolute;
+    font-weight:bold;
+    font-size: 1rem;
+    left: 5.4rem;
+    width: 20.8rem;
+    text-align: center;
+}
+
+#first .myFirstMatsuo span{
+    display: block;
+}
+
+#first .myFirstMatsuoTalk1 span{
+    display: inline;
+}
+
+#first .myFirstMatsuoTalk1-2{
+    font-size: 1.7rem;
+}
+
+#first .myFirstMatsuoTalk2 span{
+    display: inline;
+}
+#first .myFirstMatsuoTalk2-2{
+    font-size: 1.7rem;
+}
+/*
+#first .myFirstMatsuoFrame{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}*/
+
+#first .myFirstMatsuoFrame .myFirstMatsuoPic img{
+    position: absolute;
+    top: 9.3rem;
+    left: 4.4rem;
+    width: 23.3rem;
+    height: 34.8rem;
+}
+#first .myFirstMatsuoFrame .myFirstMatsuoPic p{
+    position: absolute;
+    top: 34.8rem;
+    left: 8.8rem;
+    width: 34.8rem;
+}
+
+#first .myFirstTv{
+    position: absolute;
+    top: 40rem;
+}
+
+
+#first .myFirstTv h3{
+    position: absolute;
+    font-weight:bold;
+    font-size: 1rem;
+    left: 5.4rem;
+    width: 20.8rem;
+    text-align: center;
+}
+
+#first .myFirstTv span{
+    display: block;
+}
+
+#first .myFirstTvTalk1 span{
+    display: inline;
+}
+
+#first .myFirstTvTvTalk1-2{
+    font-size: 1.7rem;
+}
+
+#first .myFirstTvTalk2 span {
+    display: inline;
+}
+
+#first .myFirstTvTvTalk12-2{
+    font-size: 1.7rem;
+}
+
+#first .myFirstMatsuoFrame .myFirstTvPic img{
+    position: absolute;
+    top: 9.3rem;
+    left: 4.4rem;
+    width: 23.3rem;
+    height: 34.8rem;
+}
+#first .myFirstMatsuoFrame .myFirstTvPic p{
+    position: absolute;
+    top: 34.8rem;
+    left: 8.8rem;
+    width: 34.8rem;
+}
+
+#first .myFirstGuarantee{
+    position: absolute;
+    top: 58.7rem;
 }
 
 @media screen and (min-width: 768px) {
