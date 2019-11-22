@@ -407,6 +407,7 @@ html {
     left: 5.4rem;
     width: 20.8rem;
     text-align: center;
+    line-height: 1.1;
 }
 
 #first .myFirstMatsuo span{
@@ -427,30 +428,26 @@ html {
 #first .myFirstMatsuoTalk2-2{
     font-size: 1.7rem;
 }
-/*
-#first .myFirstMatsuoFrame{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}*/
 
-#first .myFirstMatsuoFrame .myFirstMatsuoPic img{
+
+#first .myFirstMatsuo img{
     position: absolute;
-    top: 9.3rem;
+    top: 1.1rem;
     left: 4.4rem;
     width: 23.3rem;
-    height: 34.8rem;
+    height: 36.4rem;
 }
-#first .myFirstMatsuoFrame .myFirstMatsuoPic p{
+#first .myFirstMatsuo p{
     position: absolute;
-    top: 34.8rem;
+    top: 26.4rem;
     left: 8.8rem;
-    width: 34.8rem;
+    width:14.4rem;
+    font-size: 1.8rem;
 }
 
 #first .myFirstTv{
     position: absolute;
-    top: 40rem;
+    top: 40.3rem;
 }
 
 
@@ -471,7 +468,7 @@ html {
     display: inline;
 }
 
-#first .myFirstTvTvTalk1-2{
+#first .myFirstTvTalk1-2{
     font-size: 1.7rem;
 }
 
@@ -479,29 +476,59 @@ html {
     display: inline;
 }
 
-#first .myFirstTvTvTalk12-2{
+#first .myFirstTvTalk12-2{
     font-size: 1.7rem;
 }
 
-#first .myFirstMatsuoFrame .myFirstTvPic img{
+#first .myFirstTv img{
     position: absolute;
-    top: 9.3rem;
-    left: 4.4rem;
-    width: 23.3rem;
-    height: 34.8rem;
+    top: 4.3rem;
+    left:  11.7rem;
+    width: 8.7rem;
+    height: 8.7rem;
 }
-#first .myFirstMatsuoFrame .myFirstTvPic p{
+#first .myFirstTv p{
     position: absolute;
-    top: 34.8rem;
-    left: 8.8rem;
+    top: 13.7rem;
+    left: 2.5rem;
     width: 34.8rem;
+    font-size: 1.5rem;
 }
 
 #first .myFirstGuarantee{
     position: absolute;
-    top: 58.7rem;
+    top: 59rem;
 }
 
+#first .myFirstGuarantee p{
+    position: absolute;
+    left: 2.3rem;
+    font-size: 1.6rem;
+    width: 8rem;
+}
+#first .myFirstGuaranteePic1{
+    position: absolute;
+    top: 0.6rem;
+    left: 9rem;
+    width: 14.1rem;
+    height: 12.7rem;
+}
+
+#first .myFirstGuaranteePic2{
+    position: absolute;
+    top: 14rem;
+    left: 4.5rem;
+    width: 23rem;
+    height: 3.7rem;
+}
+
+#first .myFirstClose{
+    position: absolute;
+    top: 78.2rem;
+    background-color: #459437;
+    width: 32rem;
+    height: 2.3rem;
+}
 @media screen and (min-width: 768px) {
     html {
         font-size: 10px;
