@@ -529,6 +529,129 @@ html {
     width: 32rem;
     height: 2.3rem;
 }
+
+/*sakurako-test*/
+#test .mySectionInner{
+    position: relative;
+    min-height: 54.3rem;
+    background: url("/img/test-back.jpg") center center;
+    background-size: cover;
+}
+
+#test .myTestTitle h3{
+    display: block;
+    font-weight: bold;
+}
+
+#test .myTestTitle1{
+    font-size: 1.9rem;
+    position: absolute;
+    top: 1.7rem;
+    left: 4.8rem;
+}
+
+#test .myTestTitle2{
+    font-size: 1.6rem;
+    position: absolute;
+    top: 5.2rem;
+    left: 14.4rem;
+}
+
+#test .myTestTitle3{
+    font-size: 1.3rem;
+    position: absolute;
+    top:7.8rem;
+    left: 5.2rem;
+}
+
+
+#test .myTestResult p{
+    font-size: 0.8rem;
+    position: absolute;
+    top: 9.8rem;
+    left: 3.5rem;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #ffffff;
+    width: 25.1rem;
+    height: 7.1rem;
+    padding: 1rem 0.5rem ;
+}
+
+#test .myTestResult span{
+    display: block;
+}
+
+#test .myTestResult2 span{
+    display: inline;
+}
+
+#test .myTestResult2-2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#test .myTestResult img{
+    position: absolute;
+    top: 18.6rem;
+    left: 3.5rem;
+    width: 25.1rem;
+    height: 18.6rem;
+}
+
+#test .myTestMovie{
+    position: absolute;
+    top: 39rem;
+    left: 3.5rem;
+    background-color: #ffffff;
+    width: 25.1rem;
+    height: 13.1rem;
+}
+
+/*sakurako-guarantee*/
+#guarantee .mySectionInner{
+    position: relative;
+    background: url("/img/guarantee-back.jpg") center center;
+    background-size: cover;
+    min-height: 41.3rem;
+}
+
+#guarantee .myGuaranteeTitle h2{
+    position: absolute;
+    font-weight: bold;
+    font-size: 2.8rem;
+    left: 2rem;
+    top: 6.1rem;
+}
+
+#guarantee .myGuaranteeList{
+    position: absolute;
+    left: 5.5rem;
+    top: 12.6rem;
+}
+
+#guarantee .myGuaranteeList .myGuaranteeListNo{
+    font-size: 4.2rem;
+
+}
+
+#guarantee .myGuaranteeDetail{
+    font-size: 1.5rem;
+    width: 15.3rem;
+    height: 3.2rem;
+    line-height: 0.9;
+}
+
+#guarantee .myGuaranteeAttention{
+    font-size: 0.6rem;
+    position: absolute;
+    top: 28.8rem;
+    left: 4.4rem;
+    line-height: 1.6;
+    width: 23.2rem;
+    height: 3.4rem;
+}
+
 @media screen and (min-width: 768px) {
     html {
         font-size: 10px;
