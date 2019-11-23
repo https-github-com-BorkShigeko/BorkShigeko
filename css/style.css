@@ -785,7 +785,7 @@ html {
     position: relative;
     background: url("/img/tv-back.svg") center;
     background-size: contain;
-    min-height: 54.3rem;
+    min-height: 58.3rem;
 }
 
 #tv .myTvHead{
@@ -834,6 +834,7 @@ html {
     left:15.8rem;
     font-weight: bold;
     font-size: 1.2rem;
+    width: 13.8rem;
 }
 #tv .myTvContents .myTvHukidashi1-1{
     display: inline;
@@ -854,6 +855,7 @@ html {
     position: absolute;
     top: 14.5rem;
     left: 0.4rem;
+    width: 13.8rem;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -867,22 +869,192 @@ html {
     width: 13.8rem;
     height: 10.9rem;
     position: absolute;
-    top:20.1rem;
+    top:21.8rem;
 }
-/*
+
 #tv .myTvContents3 p{
     position: absolute;
     top: 24.9rem;
-    left:0.4rem;
+    left:15.8rem;
+    width: 14rem;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 #tv .myTvHukidashi3Bold{
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
-*/
+#natsumi .mySectionInner{
+    position: relative;
+    min-height: 19rem;
+    background: url("/img/natsumi-back.png") center center;
+    background-size: cover;
+}
+
+/*sakurako-natsumi*/
+#natsumi .myNatsumiHead{
+    position: absolute;
+    width: 32rem;
+    background-color: #1F3650;
+    height: 3.4rem;
+}
+#natsumi .myNatsumiHead h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 1rem;
+    left: 8.2rem;
+}
+#natsumi .myNatsumiPic{
+    position: absolute;
+    top: 4.7rem;
+    left:1.9rem;
+    width: 7.7rem;
+    height: 12.3rem;
+}
+#natsumi .myNatsumiTitle p{
+    position: absolute;
+    top: 4.7rem;
+    left:13rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#natsumi .myNatsumiTitle h3{
+    position: absolute;
+    left: 15.3rem;
+    top: 7.5rem;
+    font-size: 1.8rem;
+    color: #E1443E;
+    font-weight: bold;
+}
+#natsumi .myNatsumiMain{
+    position: absolute;
+    top: 10.1rem;
+    left: 12.3rem;
+    height: 10.3rem;
+    font-size: 0.7rem;
+    background-color: #FFFFFF;
+    width: 18.1rem;
+    height: 6.9rem;
+    padding: 1rem;
+}
+
+/*sakurako-logic*/
+#logic .mySectionInner{
+    position: relative;
+    min-height: 88.1rem;
+    background: url("/img/logic-back.jpg")center center;
+    background-size: cover;
+}
+#logic .myLogicHead h2{
+    display: block;
+    position: absolute;
+    top: 0.7rem;
+    left: 2.2rem;
+    text-align: center;
+}
+#logic .myLogicHead .myLogicHead1{
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+#logic .myLogicHead .myLogicHead2{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+#logic .myLogicTitle h2{
+    position: absolute;
+    left: 4.1rem;
+    top: 6.8rem;
+    display: block;
+}
+#logic .myLogicTitle1{
+    font-size: 1.4rem;
+    position: absolute;
+    left: 3.8rem;
+}
+#logic .myLogicTitle2{
+    font-size: 2rem;
+    position: absolute;
+    top: 2rem;
+}
+#logic .myLogicMain .myLogicModelPic{
+    position: absolute;
+    top: 6.7rem;
+    left: -36.7rem;
+    width: 68.1rem;
+    height: 49.9rem;
+}
+#logic .myLogicMain .myLogicBoxPic{
+    position: absolute;
+    top: 29.2rem;
+    left: 16.1rem;
+    width: 13.3rem;
+    height: 14.8rem;
+}
+#logic .myLogicContents1{
+    position: absolute;
+    left: 3.1rem;
+    top: 48rem;
+}
+#logic .myLogicContents1Title img{
+    position: absolute;
+    width: 3.1rem;
+    height: 3.1rem;
+}
+#logic .myLogicContents1Title p{
+    font-size: 1.2rem;
+    position: absolute;
+    left: 3.1rem;
+    text-align: left;
+}
+#logic .myLogicContents1Detail img{
+    position: absolute;
+    top: 5.1rem;
+    width: 13.4rem;
+    height: 8.9rem;
+}
+#logic .myLogicContents1Detail p{
+    position: absolute;
+    left: 14.3rem;
+    height: 8.9rem;
+    width: 13.8rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
+#logic .myLogicContents1{
+    position: absolute;
+    left: 3.1rem;
+    top: 48rem;
+}
+#logic .myLogicContents1Title img{
+    position: absolute;
+    width: 3.1rem;
+    height: 3.1rem;
+}
+#logic .myLogicContents1Title p{
+    font-size: 1.2rem;
+    position: absolute;
+    left: 3.1rem;
+    text-align: left;
+}
+#logic .myLogicContents1Detail img{
+    position: absolute;
+    top: 5.1rem;
+    width: 13.4rem;
+    height: 8.9rem;
+}
+#logic .myLogicContents1Detail p{
+    position: absolute;
+    left: 14.3rem;
+    height: 8.9rem;
+    width: 13.8rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
 
 
 @media screen and (min-width: 768px) {
