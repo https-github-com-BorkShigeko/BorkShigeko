@@ -321,16 +321,17 @@ html {
     top: 0rem;
     left: 0rem;
     width:32rem;
-    height: 6.6rem;
+    height: 5.6rem;
 }
 #target .myTargetHeader h2{
     position: absolute;
-    top: 1.7rem;
-    left: 2.7rem;
+    top: 1.2rem;
+    left: 2.3rem;
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    width: 26.6rem;
+    width: 27.4rem;
+    letter-spacing: -0.05rem;
 }
 #target .myTargetChecklist{
     position: absolute;
@@ -364,7 +365,7 @@ html {
 
 /*sakurako-first*/
 #first .mySectionInner{
-    min-height: 80.5rem;
+    min-height: 100.6rem;
     background: url("/img/first-back.jpg") center center;
     background-size: cover;
     position: relative;
@@ -372,8 +373,8 @@ html {
 
 #first .myFirstTitle{
     position: absolute;
-    left: 2.3rem;
-    top:2.5rem;
+    left: 1.3rem;
+    top:1.2rem;
 }
 
 #first .myFirstTitleTitle h2{
@@ -384,7 +385,7 @@ html {
 
 #first .myFirstTitle span{
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 #first .myFirstTitle2 span{
