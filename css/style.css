@@ -211,7 +211,7 @@ html {
     width: 28.4rem;
 }
 
-/*Sakurako-intro*/
+
 /*Sakurako-intro*/
 #intro .mySectionInner{
     min-height: 45.7rem;
@@ -334,53 +334,66 @@ html {
     position: relative;
 }
 
-#target .myTargetHeaderBack{
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    width:32rem;
-    height: 5.6rem;
-}
 #target .myTargetHeader h2{
-    position: absolute;
-    top: 1rem;
-    left: 2.3rem;
+    position: relative;
+    height: 5.6rem;
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: bold;
-    width: 27.4rem;
+    width: 100%;
     letter-spacing: -0.05rem;
+    background: url("/img/target-header.png") center center no-repeat;
+    background-size: contain;
+    padding-top: 0.5rem;
+    text-align: center;
 }
 #target .myTargetChecklist{
     position: absolute;
-    top:8.4rem;
-    left: 4.3rem;
-    width: 23.4rem;
-    height: 17.8rem;
+    top:50%;
+    left: 50%;
+    width: 26.3rem;
+    height: 19.9rem;
+    transform: translate(-50%,-40%);
+    background: url("/img/Target-backChecklist.png") center center no-repeat;
+    background-size: contain;
 }
 
-/*
+
 #target .myTargetCheckInner{
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-#target .myTargetCheckText{
+#target .myTargetCheckText ul{
+    width: 25rem;
+    margin: 0 auto;
+    list-style-image: none;
     position: absolute;
-    top: 9.9rem;
-    left: 5.3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -47%);
 }
 
-#target .myTargetCheckText ul {
-    list-style-image:none;
-}
 #target .myTargetCheckText li{
-    padding-left:1rem;
-    background-image:url("/img/checklist.png");
-    background-repeat:no-repeat;
-}*/
+    font-size: 1.2rem;
+    position: relative;
+    padding-left: 2.2rem;
+    margin-bottom: 1rem;
+}
 
+#target .myTargetCheckText li:before {
+    content: "";
+    background: url("/img/checklist.png") center center no-repeat;
+    background-size: contain;
+    width: 2.042rem;
+    height: 1.868rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 /*sakurako-first*/
 #first .mySectionInner{
     min-height: 100.6rem;
@@ -402,11 +415,11 @@ html {
 #first .myFirstTitle span{
     display: block;
     font-size: 1.5rem;
-    color: #FF4B4B
 }
 
 #first .myFirstTitle2 span{
     display: inline;
+    background: linear-gradient(transparent 50%, #B1C070 50%);
 }
 
 #first .myFirstTitle2 .myFirstTitle2-1{
@@ -422,7 +435,7 @@ html {
     position: absolute;
     top: 7.2rem;
     left: 10.8rem;
-    border-top: 10.6rem solid #216BB5;
+    border-top: 3rem solid #216BB5;
     border-right: 5.3rem solid transparent;
     border-left: 5.3rem solid transparent;
 }
@@ -439,6 +452,7 @@ html {
     width: 28rem;
     text-align: center;
     line-height: 1.1;
+    color: #FF4B4B
 }
 
 #first .myFirstMatsuo span{
@@ -455,6 +469,7 @@ html {
 
 #first .myFirstMatsuoTalk2 span{
     display: inline;
+
 }
 #first .myFirstMatsuoTalk2-2{
     font-size: 2.4rem;
@@ -474,6 +489,7 @@ html {
     left: 8.8rem;
     width:15.8rem;
     font-size: 2.4rem;
+    background: linear-gradient(transparent 50%, #B1C070 50%);
 }
 
 #first .myFirstTv{
@@ -487,7 +503,7 @@ html {
     font-weight:bold;
     font-size: 1.2rem;
     left: 5.4rem;
-    width: 20.8rem;
+    width: 21.2rem;
     text-align: center;
 }
 
@@ -500,7 +516,7 @@ html {
 }
 
 #first .myFirstTvTalk1-2{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 #first .myFirstTvTalk2 span {
@@ -508,7 +524,7 @@ html {
 }
 
 #first .myFirstTvTalk12-2{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 #first .myFirstTv img{
@@ -534,6 +550,7 @@ html {
     left: 2.5rem;
     width: 34.8rem;
     font-size: 1.6rem;
+    background: linear-gradient(transparent 50%, #B1C070 50%);
 }
 
 #first .myFirstGuarantee{
@@ -551,7 +568,7 @@ html {
 #first .myFirstGuaranteePic1{
     position: absolute;
     top: 4.4rem;
-    left: 9rem;
+    left: 8.0rem;
     width: 16rem;
     height: 14.5rem;
 }
@@ -581,16 +598,17 @@ html {
     background-size: cover;
 }
 
-#test .myTestTitle h3{
+#test .myTestTitle h2{
     display: block;
     font-weight: bold;
 }
 
 #test .myTestTitle1{
-    font-size: 1.9rem;
+    font-size: 2.3rem;
     position: absolute;
     top: 1.7rem;
     left: 4.8rem;
+    border-bottom: solid 0.3rem #FF4945;
 }
 
 #test .myTestTitle2{
