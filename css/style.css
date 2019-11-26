@@ -404,8 +404,11 @@ html {
 
 #first .myFirstTitle{
     position: absolute;
-    left: 1.3rem;
-    top:1.2rem;
+    left: 50%;
+    /* top: 50%; */
+    width: 100%;
+    margin-top: 1rem;
+    transform: translateX(-46%);
     font-weight: bold;
     line-height: 1.3;
     text-align: left;
@@ -433,9 +436,12 @@ html {
 }
 
 #first .myFirstTriangle{
-    position: absolute;
-    top: 7.2rem;
-    left: 10.8rem;
+    position: relative;
+    left: 50%;
+    /* top: 50%; */
+    width: 10.6rem;
+    transform: translateX(-50%);
+    margin-top: 6rem;
     border-top: 3rem solid #216BB5;
     border-right: 5.3rem solid transparent;
     border-left: 5.3rem solid transparent;
@@ -446,14 +452,15 @@ html {
     top: 12.5rem;
 }
 #first .myFirstMatsuo h3{
-    position: absolute;
-    font-weight:bold;
+    position: relative;
+    font-weight: bold;
     font-size: 1.3rem;
-    left: 2.2rem;
+    left: 50%;
+    transform: translateX(-41%);
     width: 28rem;
     text-align: center;
     line-height: 1.1;
-    color: #FF4B4B
+    color: #FF4B4B;
 }
 
 #first .myFirstMatsuo span{
@@ -486,10 +493,12 @@ html {
 }
 #first .myFirstMatsuo p{
     position: absolute;
-    top: 28rem;
-    left: 8.8rem;
-    width:15.8rem;
+    top: 18rem;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 15.8rem;
     font-size: 2.4rem;
+    margin-top: 10rem;
     background: linear-gradient(transparent 50%, #B1C070 50%);
 }
 
@@ -501,9 +510,10 @@ html {
 
 #first .myFirstTv h3{
     position: absolute;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 1.2rem;
-    left: 5.4rem;
+    left: 50%;
+    transform: translateX(25%);
     width: 21.2rem;
     text-align: center;
 }
@@ -548,8 +558,9 @@ html {
 #first .myFirstTv p{
     position: absolute;
     top: 17.9rem;
-    left: 2.5rem;
-    width: 34.8rem;
+    left: 50%;
+    transform: translateX(6%);
+    width: 28.8rem;
     font-size: 1.6rem;
     background: linear-gradient(transparent 50%, #B1C070 50%);
 }
@@ -598,33 +609,44 @@ html {
     background: url("/img/test-back.jpg") center center;
     background-size: cover;
 }
+#test .myTestTitle span {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
 
 #test .myTestTitle h2{
     display: block;
 }
+#test .myTestTitle {
+    padding: 2rem;
+}
 
 #test .myTestTitle1{
     font-size: 2.3rem;
-    position: absolute;
-    top: 2.2rem;
-    left: 2.4rem;
     font-weight: bold;
-    border-bottom: solid 0.3rem #FF4945;
-    padding-bottom: 0.1rem;
+    position: relative;
+}
+#test .myTestTitle1:before {
+    content: "";
+    display: block;
+    width: 27rem;
+    height: 0.3rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    background-color: #ff4945;
+    transform: translateX(-50%);
+    margin-top: 2.2rem;
 }
 
 #test .myTestTitle2{
     font-size: 1.6rem;
-    position: absolute;
-    top: 5.8rem;
-    left: 14.4rem;
 }
 
 #test .myTestTitle3{
     font-size: 1.6rem;
-    position: absolute;
-    top:8.2rem;
-    left: 3.1rem;
 }
 
 
@@ -693,7 +715,7 @@ html {
     font-weight: bold;
     font-size: 2.8rem;
     left: 2rem;
-    top: 6.1rem;
+    top: 4.5rem;
 }
 
 #guarantee .myGuaranteeList{
@@ -728,23 +750,21 @@ html {
     position: relative;
     background: url("/img/matsuo-back.png") center center;
     background-size: cover;
-    min-height: 49.5rem;
+    min-height: 58rem;
 }
 
-#matsuo .myMatsuoHead{
-   position: absolute;
-    top: 0rem;
-    left: 0rem;
-    width: 32rem;
-
-}
 
 #matsuo .myMatsuoHead h2{
     color: #ffffff;
     font-size: 1.9rem;
-    position: absolute;
-    left: 5.5rem;
-    top: 0.5rem;
+    position: relative;
+    background: url(/img/matsuo-header.png)center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 6.3rem;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-left: 5.9rem;
 }
 #matsuo .myMatsuoHead span{
     display: block;
@@ -753,20 +773,25 @@ html {
 
 #matsuo .myMatsuoHead .myMatsuoHead1{
     font-size: 1.1rem;
+
 }
 
 #matsuo .myMatsuoPic img{
     position: absolute;
-    top: 7.8rem;
-    left: 1.4rem;
-    width: 13.3rem;
-    height: 18.4rem;
+    /* top: 7.8rem; */
+    left: 50%;
+    transform: translateX(-112%);
+    width: 12.4rem;
+    height: 17.15rem;
 }
 
 #matsuo .myMatsuoPic p{
     position: absolute;
-    top:27.7rem;
-    left: 3.8rem;
+    /* top: 27.7rem; */
+    left: 50%;
+    font-size: 1.2rem;
+    transform: translateX(-3%);
+    margin: 3.4rem 4rem 2.3rem 3.5rem;
 }
 
 #matsuo .myMatsuoMain h2{
@@ -799,31 +824,45 @@ html {
 }
 
 #matsuo .myMatsuoMain p{
-    font-size: 0.5rem;
+    font-size: 1rem;
     position: absolute;
-    left: 16rem;
-    top: 13.9rem;
-    width: 14.5rem;
-    height: 10.9rem;
+    /* left: 16rem; */
+    top: 50%;
+    transform: translate(11%,24%);
+    width: 28.4rem;
+/* height: 4.8rem;*/
 }
 
 #matsuo .myMatsuoProf{
-    position: absolute;
-    left: 15.5rem;
-    top: 26.6rem;
-    border: 0.2rem solid #08518A;
-    width: 15rem;
-    height: 4.8rem;
-    font-size: 0.9rem;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color:rgba(255,255,255,0.3);
+    /* transform: translate(-25%,258%); */
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5.3rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    padding: 1.2rem 2.3rem;
+    border: 0.1rem solid;
 }
 
 #matsuo .myMatsuoMovie{
-    position: absolute;
-    right: 3.6rem;
-    bottom: 2.2rem;
-    background-color: #ffffff;
-    width: 24.7rem;
-    height: 14.3rem;
+position: absolute;
+right: 3.6rem;
+bottom: 2.2rem;
+background-color: #ffffff;
+width: 24.7rem;
+height: 14.3rem;
+}
+#matsuo .myMatsuoMovie p{
+    left: 4.6rem;
+    /* background: none; */
+    position: relative;
+    top: 14.5rem;
+    font-size: 1.2rem;
 }
 
 /*sakurako-power*/
@@ -831,7 +870,7 @@ html {
     position: relative;
     background: url("/img/power-back.png")center center;
     background-size: cover;
-    min-height: 38.5rem;
+    min-height: 32.6rem;
 }
 
 #power .myPowerHead{
