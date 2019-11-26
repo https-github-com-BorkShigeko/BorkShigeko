@@ -896,13 +896,14 @@ height: 14.3rem;
 
 
 #power .myPowerList li {
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     margin-bottom: 1rem;
-    /* margin-left: 1rem; */
+    font-weight: bold;
+    margin-left: 1rem;
     font-size: 1.5rem;
     position: relative;
 }
-#power .myPowerList ul{
+#power .myPowerList ol{
     /* width: 16.7rem; */
     /* margin: 0 auto; */
     position: absolute;
@@ -911,30 +912,32 @@ height: 14.3rem;
     left: 50%;
     width: auto;
     height: auto;
-    background-color: #fff;
+    background-color: rgba(241,246,203,0.7);
     padding: 0.9rem 1.4rem;
     transform: translateX(-65%);
 }
 /*sakurako-Tv*/
 #tv .mySectionInner{
     position: relative;
-    background: url("/img/tv-back.svg") center;
+    background: url("/img/tv-back.svg") 0 0;
     background-size: contain;
     min-height: 58.3rem;
+    z-index: 0;
 }
 
-#tv .myTvHead{
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    width: 32rem;
-}
+
 #tv .myTvHead h2{
     font-size: 1.4rem;
     color: #ffffff;
-    position: absolute;
-    top: 1.7rem;
-    left: 3rem;
+    /* position: absolute; */
+    /* top: 1.7rem; */
+    /* left: 3rem; */
+    text-align: center;
+    height: 6.3rem;
+    width: 100%;
+    background: url(/img/target-header.png)center center no-repeat;
+    background-size: contain;
+    padding-top: 1.3rem;
 }
 #tv .myTvMain img{
     position: absolute;
@@ -963,13 +966,16 @@ height: 14.3rem;
     height: 10.9rem;
 }
 #tv .myTvContents1 p{
-    display: block;
+    background: url(/img/tv-callout.svg) center center no-repeat;
     position: absolute;
-    top: 3.1rem;
-    left:15.8rem;
+    padding: 1rem;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-46%, 50%);
+    height: auto;
+    width: 14.9rem;
     font-weight: bold;
     font-size: 1.2rem;
-    width: 13.8rem;
 }
 #tv .myTvContents .myTvHukidashi1-1{
     display: inline;
@@ -982,21 +988,25 @@ height: 14.3rem;
     width: 13.8rem;
     height: 10.9rem;
     position: absolute;
-    top:10.8rem;
+    top: 10.8rem;
     left: 15.7rem;
 }
 
 #tv .myTvContents2 p{
+    background: url(/img/tv-callout.svg) center center no-repeat;
     position: absolute;
-    top: 14.5rem;
-    left: 0.4rem;
-    width: 13.8rem;
+    padding: 1rem;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-46%, 50%);
+    height: auto;
+    width: 14.9rem;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 #tv .myTvHukidashi2Bold{
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 
@@ -1106,7 +1116,7 @@ height: 14.3rem;
     display: block;
 }
 #logic .myLogicTitle1{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     position: absolute;
     left: 3.8rem;
 }
