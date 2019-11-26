@@ -718,12 +718,21 @@ html {
     top: 4.5rem;
 }
 
-#guarantee .myGuaranteeList{
-    position: absolute;
-    left: 5.5rem;
-    top: 12.6rem;
-}
 
+#guarantee .myGuaranteeList li{
+    font-size: 1.8rem;
+    position: relative;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+#guarantee .myGuaranteeList ul{
+    width: 21.8rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -57%);
+}
 #guarantee .myGuaranteeList .myGuaranteeListNo{
     font-size: 4.2rem;
 
@@ -737,13 +746,16 @@ html {
 }
 
 #guarantee .myGuaranteeAttention{
-    font-size: 0.6rem;
+    font-size: 1rem;
     position: absolute;
     top: 28.8rem;
     left: 4.4rem;
     line-height: 1.6;
-    width: 23.2rem;
+    width: 23.8rem;
+    text-align: center;
+    letter-spacing: -0.1rem;
     height: 3.4rem;
+    margin-top: 2rem;
 }
 /*sakurako-matuso*/
 #matsuo .mySectionInner{
@@ -873,6 +885,7 @@ height: 14.3rem;
     min-height: 32.6rem;
 }
 
+
 #power .myPowerHead{
     position: absolute;
     top: 0rem;
@@ -881,16 +894,27 @@ height: 14.3rem;
     height: 7.2rem;
 }
 
-#power .myPowerList{
-    position: absolute;
-    left: 6.2rem;
-    top: 12.1rem;
-    background-color: rgba(208,255,8,0.67);
-    width: 19.7rem;
-    height: 18.2rem;
-    font-size: 1.3rem;
-}
 
+#power .myPowerList li {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    /* margin-left: 1rem; */
+    font-size: 1.5rem;
+    position: relative;
+}
+#power .myPowerList ul{
+    /* width: 16.7rem; */
+    /* margin: 0 auto; */
+    position: absolute;
+    line-height: 1;
+    top: 9.2rem;
+    left: 50%;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding: 0.9rem 1.4rem;
+    transform: translateX(-65%);
+}
 /*sakurako-Tv*/
 #tv .mySectionInner{
     position: relative;
