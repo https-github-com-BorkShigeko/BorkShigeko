@@ -419,12 +419,13 @@ html {
 
 #first .myFirstTitle2 span{
     display: inline;
-    background: linear-gradient(transparent 50%, #B1C070 50%);
+
 }
 
 #first .myFirstTitle2 .myFirstTitle2-1{
     font-size: 2.5rem;
     letter-spacing: -0.1rem;
+    background: linear-gradient(transparent 50%, #B1C070 50%);
 }
 
 #first .myFirstTitle2 .myFirstTitle2-2{
@@ -600,43 +601,45 @@ html {
 
 #test .myTestTitle h2{
     display: block;
-    font-weight: bold;
 }
 
 #test .myTestTitle1{
     font-size: 2.3rem;
     position: absolute;
-    top: 1.7rem;
-    left: 4.8rem;
+    top: 2.2rem;
+    left: 2.4rem;
+    font-weight: bold;
     border-bottom: solid 0.3rem #FF4945;
+    padding-bottom: 0.1rem;
 }
 
 #test .myTestTitle2{
     font-size: 1.6rem;
     position: absolute;
-    top: 5.2rem;
+    top: 5.8rem;
     left: 14.4rem;
 }
 
 #test .myTestTitle3{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     position: absolute;
-    top:7.8rem;
-    left: 5.2rem;
+    top:8.2rem;
+    left: 3.1rem;
 }
 
 
 #test .myTestResult p{
-    font-size: 0.8rem;
+    font-size: 1rem;
     position: absolute;
-    top: 9.8rem;
+    top: 10.6rem;
     left: 3.5rem;
     text-align: center;
     line-height: 1.5;
     background-color: #ffffff;
-    width: 25.1rem;
-    height: 7.1rem;
-    padding: 1rem 0.5rem ;
+    width: auto;
+    height: auto;
+    padding: 1rem 0.5rem;
+    border: 0.1rem solid #287319;
 }
 
 #test .myTestResult span{
@@ -650,23 +653,31 @@ html {
 #test .myTestResult2-2{
     font-size: 1.5rem;
     font-weight: bold;
+    color: #FF4945;
 }
 
 #test .myTestResult img{
     position: absolute;
-    top: 18.6rem;
-    left: 3.5rem;
-    width: 25.1rem;
-    height: 18.6rem;
+    top: 18.5rem;
+    left: 3.8rem;
+    width: 24.4rem;
+    height: 18.1rem;
 }
 
 #test .myTestMovie{
     position: absolute;
-    top: 39rem;
-    left: 3.5rem;
+    top: 38rem;
+    left: 3.8rem;
     background-color: #ffffff;
-    width: 25.1rem;
-    height: 13.1rem;
+    width: 24.4rem;
+    height: 13.5rem;
+}
+#test .myTestMovieComment{
+    left: 5.6rem;
+    /* background: none; */
+    position: relative;
+    top: 14rem;
+    font-size: 1.2rem;
 }
 
 /*sakurako-guarantee*/
