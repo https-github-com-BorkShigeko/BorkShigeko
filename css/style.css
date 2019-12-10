@@ -119,7 +119,7 @@ html {
     font-size: 3.125vw;
 }
 .myBack {
-    background: #FFFFFF;
+    background: rgba(255,255,255,0.5);
 }
 
 .myBack2 {
@@ -197,68 +197,75 @@ html {
     margin: 0 0 0;
 }
 
-/*sakurako-mv*/
+
 
  .topHeader{
     height: 4.1rem;
-    background: white;
-    border-bottom: solid 1px #edeff3;
+     background: rgba(255,255,255,0.5);
+    border-bottom: solid 1px rgba(112,112,112,0.1);
 }
-
 .topLogo{
     margin: auto;
     width: 10.4rem;
     height: 4rem;
 }
+.topLogo img{
+    top: -0.2rem;
+    position: relative;
+}
 .forMember{
     margin-right: 0;
     margin-top: 0;
-    background-color: #FF0096;
+    background-color:rgba(255,0,150,1);
     color: #FFFFFF;
     position: relative;
     height: 4.1rem;
     width: auto;
     transform: translate(23.2rem, -4rem);
     font-size: 1rem;
-    padding: 1.6rem 0.9rem;
+    padding: 1.5rem 0.9rem;
 }
 
-#mv .mySection{
+/*sakurako-mv*/
+#mv .mySectionInner{
+    min-height: 77.4rem;
+    position: relative;
     margin-top: 4rem;
 }
-#mv .mySectionInner{
-    min-height: 81.4rem;
-    position: relative;
-}
-
 #mv .aboveMv h1{
     text-align: center;
     font-size: 1.5rem;
-    margin: 1.9rem;
+    padding-top: 1.95rem;
+    color: #707070;
 }
-#mv .mainVisual .mvPic{
+#mv .mainVisual .mvPic .spShigeko{
     width: 92%;
     margin-left: 2.7rem;
     margin-top: 3.5rem;
     position: relative;
+}
+#mv .mainVisual .mvPic .pcShigeko{
+    display: none;
 }
 #mv .mainVisual .mvBack{
     background-color: #FF0096;
     position: absolute;
     width: 92%;
     height: 33%;
-    top: 9.4rem;
+    top: 5.2rem;
+    display: block;
 }
 #mv .BorkShigeko{
-    background: url(/img/top_frame.png) center center no-repeat;
+    background: url(/img/top_frame.png) center top no-repeat;
     background-size: contain;
-    height: 34.5rem;
+    height: 35.5rem;
+    /* width: 35.7rem; */
     position: relative;
 }
 #mv .BorkShigeko h2{
     text-align: center;
-    margin-top: 1.9rem;
-    padding-top: 2rem;
+    margin-top: 1rem;
+    padding-top: 1.9rem;
     font-size: 5rem;
     color: #FF0096;
 }
@@ -267,20 +274,244 @@ html {
     text-align: center;
     line-height: 1.2;
 }
+
+/*sakurako-why*/
+#why .mySectionInner{
+    position: relative;
+    min-height: 81.4rem;
+}
+#why .mySectionBack{
+    background-color: #FFEDED;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 100%;
+}
+#why .shigekoLogo{
+    position: absolute;
+    top: 25%;
+    width: 39.8rem;
+    left: -4rem;
+}
+
+#why .whyShigeko{
+    position: relative;
+    width: 23.7rem;
+    height: 14.5rem;
+    /* transform: translateX(50%); */
+    /* left: -50%; */
+    margin: auto;
+    top: 2.7rem;
+}
+#why .whyLetter{
+    position: relative;
+    font-size: 1.2rem;
+    margin-top: 5.4rem;
+    width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    color: #707070;
+    letter-spacing: 0.28rem;
+}
+#why .happyLife{
+    color: #FF0096;
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#why .happyLife img{
+    width: 90%;
+    margin: auto;
+}
+#why .messageMovie{
+    background: url("/img/image.png");
+    position: relative;
+    width: 26.3rem;
+    height: 19.4rem;
+    margin: auto;
+}
+#why .messageMovieP{
+    color: #FFFFFF;
+    font-size: 2.1rem;
+    position: relative;
+    left: 16rem;
+}
+#why .messageMoveBack{
+    bottom: 0;
+    background-color: #FF0096;
+    width: 100%;
+    position: absolute;
+    height: 13.6rem;
+}
+
+/*sakurako-registration*/
+#registration .mySectionInner{
+    position: relative;
+    /*min-height: 91rem;*/
+}
+
+#registration .registrationTitle{
+    background-color: #FF0096;
+    position: relative;
+    width: 80%;
+    font-size: 2.1rem;
+    height: auto;
+    padding: 0.7rem;
+    color: #ffff;
+    margin: auto;
+    text-align: center;
+    transform: translateY(50%);
+}
+
+#registration .content1back{
+    position: absolute;
+    background-color: #FFEDED;
+    width: 64%;
+    height: 24.2rem;
+    right: 0;
+    z-index: -1;
+}
+#registration .content1{
+position: relative;
+}
+
+#registration .content1 dt{
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+    transform: translateX(25%);
+    display: list-item;
+    list-style: none;
+    background: url(/img/01_font.png) no-repeat;
+    background-size: 24%;
+    padding: 0rem 0px 0rem 9rem;
+}
+#registration .content1 rt{
+    letter-spacing: -2rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+}
+#registration .content1 dd{
+    font-size: 1rem;
+    width: 17.1rem;
+    transform: translateX(55%);
+}
+
+
+#registration .content2back{
+    position: absolute;
+    background-color: #FFEDED;
+    width: 64%;
+    height: 24.2rem;
+    right: 0;
+    z-index: -1;
+    transform: translateY(10%);
+    left: 0;
+}
+#registration .content2{
+    position: relative;
+}
+
+#registration .content2 dt{
+    font-size: 3.5rem;
+    letter-spacing: 0.15rem;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    /* transform: translateX(4%); */
+    display: list-item;
+    list-style: none;
+    background: url(/img/02_font.png) no-repeat;
+    background-size: 27%;
+    padding: 0rem 0px 0rem 9.5rem;
+}
+#registration .content2 rt{
+    letter-spacing: -2rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+}
+#registration .content2 dd{
+    font-size: 1rem;
+    width: 17.1rem;
+    margin-inline-start: 1.8rem
+}
+
+#registration .content3{
+    position: relative;
+}
+
+#registration .content3 dt{
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+    margin-top: 6.5rem;
+    margin-left: 7.2rem;
+    display: list-item;
+    list-style: none;
+    background: url(/img/03_font.png) no-repeat;
+    background-size: 35%;
+    padding: 0rem 0rem 0.5rem 9.5rem;
+}
+#registration .content3 rt{
+    letter-spacing: -3.5rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+}
+#registration .content3 dd{
+    font-size: 1rem;
+    width: 28.1rem;
+    margin-inline-start: 2rem;
+}
+
+#registration .registrationFoot{
+    display: flex;
+    color: #ffff;
+    text-align: center;
+    margin-top: 4rem;
+}
+#registration .terms{
+    background-color: #FF0096;
+    width:50%;
+    padding: 2.9rem 0.5rem;
+}
+
+#registration .terms p{
+font-size: 2.7rem;
+}
+#registration .terms span{
+    display: block;
+    font-size: 1.5rem;
+}
+#registration .register{
+    background-color: #FF0096;
+    width: 50%;
+    padding: 2.9rem 0.5rem;
+    margin-left: 0.1rem;
+}
+#registration .register p{
+    font-size: 2.7rem;
+}
+#registration .register span{
+    display: block;
+    font-size: 1.5rem;
+}
+
+
+
 @media screen and (min-width: 768px) {
     html {
         font-size: 10px;
     }
-    /*header*/
-    .hamburger {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 10.5rem;
-        height: 7.5rem;
-        transition: 0.5s;
+
+    body {
+        font-size: 1.2rem;
     }
 
+    /*header*/
+    .hamburger {
+        width: 10.5rem;
+        height: 8rem;
+    }
     .hamburger span {
         position: absolute;
         width: 5rem;
@@ -294,21 +525,15 @@ html {
     .topHeader{
 
         height: 8rem;
-        background: rgba(255,255,255,0.3);
-        border-bottom: solid 2px #edeff3;
+        background: rgba(255,255,255,0.5);
+        border-bottom: solid 1px rgba(112,112,112,0.1);
     }
-
     .topLogo{
         margin: auto;
         width: 20.8rem;
         height: 8rem;
     }
     .forMember{
-        margin-right: 0;
-        margin-top: 0;
-        background-color: #FF0096;
-        color: #FFFFFF;
-        position: relative;
         height: 8rem;
         width: 27%;
         transform: translate(271%, -100%);
@@ -317,56 +542,263 @@ html {
         padding: 2.5rem 1.5rem;
     }
 
-    /*sakurako-mv*/
-    #mv .mySection{
-        margin-top: 4rem;
-    }
 
+    /*sakurako-mv*/
     #mv .mySectionInner{
         min-height: 229.2rem;
-        position: relative;
+        margin-top: 8rem;
     }
     #mv .aboveMv h1{
-        text-align: center;
-        font-size: 1.5rem;
-        margin: 1.9rem;
+        font-size: 5rem;
+        padding-top: 4.75rem;
     }
-    #mv .mainVisual .mvPic{
-        width: 92%;
-        margin-left: 2.7rem;
-        margin-top: 3.5rem;
+    #mv .mainVisual .mvPic .pcShigeko{
+        width: 82%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9.3rem;
         position: relative;
+        display: block;
+    }
+    #mv .mainVisual .mvPic .spShigeko{
+        display: none;
     }
     #mv .mainVisual .mvBack{
         background-color: #FF0096;
         position: absolute;
-        width: 92%;
-        height: 33%;
-        top: 9.4rem;
+        width: 63%;
+        height: 35%;
+        top: 15.3rem;
+        left: 4.4rem;
     }
     #mv .BorkShigeko{
-        background: url(/img/top_frame.png) center center no-repeat;
+        background: url(/img/top_frame_pc.png) center top no-repeat;
         background-size: contain;
-        height: 34.5rem;
+        height: 119.1rem;
         position: relative;
     }
     #mv .BorkShigeko h2{
-        text-align: center;
-        margin-top: 1.9rem;
-        padding-top: 2rem;
-        font-size: 5rem;
-        color: #FF0096;
+        margin-top: 2.6rem;
+        padding-top: 10.7rem;
+        font-size: 15rem;
     }
     #mv .BorkShigeko h3{
-        font-size: 2.8rem;
-        text-align: center;
-        line-height: 1.2;
+        font-size: 8rem;
+        margin-top: 3rem;
     }
 
-    body {
-        font-size: 1.2rem;
+
+    /*sakurako-why*/
+    #why .mySectionInner{
+    min-height: 189rem;
     }
+    #why .shigekoLogo{
+        position: absolute;
+        top: 25%;
+        width: 39.8rem;
+        left: -4rem;
+    }
+    #why .whyShigeko{
+        position: relative;
+        width: 73.1rem;
+        height: 36.5rem;
+        top: 8rem;
+    }
+    #why .whyShigeko img{
+        height: 36.5rem;
+    }
+    #why .whyLetter{
+        font-size: 1.5rem;
+        margin-top: 15rem;
+        width: 70.8rem;
+        line-height: 2.3;
+        letter-spacing: 0.4rem;
+    }
+    #why .happyLife{
+        margin-top: 7.5rem;
+        margin-bottom: 7.5rem;
+        font-size: 5rem;
+        line-height: 1.4;
+    }
+    #why .happyLife img{
+        margin-top: 3rem;
+    }
+    #why .messageMovie{
+        width: 107rem;
+        height: 70.8rem;
+    }
+    #why .messageMovieP{
+        font-size: 3rem;
+        left: 98rem;
+    }
+    #why .messageMoveBack{
+        height: 50rem;
+    }
+
+
+    /*sakurako-registration*/
+    #registration .mySectionInner{
+        position: relative;
+        /*min-height: 91rem;*/
+    }
+
+    #registration .registrationTitle{
+        background-color: #FF0096;
+        position: relative;
+        width: 80%;
+        font-size: 2.1rem;
+        height: auto;
+        padding: 0.7rem;
+        color: #ffff;
+        margin: auto;
+        text-align: center;
+        transform: translateY(50%);
+    }
+
+    #registration .content1back{
+        position: absolute;
+        background-color: #FFEDED;
+        width: 64%;
+        height: 24.2rem;
+        right: 0;
+        z-index: -1;
+    }
+    #registration .content1{
+        position: relative;
+    }
+
+    #registration .content1 dt{
+        font-size: 3.5rem;
+        margin-top: 3.5rem;
+        transform: translateX(25%);
+        display: list-item;
+        list-style: none;
+        background: url(/img/01_font.png) no-repeat;
+        background-size: 24%;
+        padding: 0rem 0px 0rem 9rem;
+    }
+    #registration .content1 rt{
+        letter-spacing: -2rem;
+        padding-left: 2rem;
+        font-size: 1.6rem;
+    }
+    #registration .content1 dd{
+        font-size: 1rem;
+        width: 17.1rem;
+        transform: translateX(55%);
+    }
+
+
+    #registration .content2back{
+        position: absolute;
+        background-color: #FFEDED;
+        width: 64%;
+        height: 24.2rem;
+        right: 0;
+        z-index: -1;
+        transform: translateY(10%);
+        left: 0;
+    }
+    #registration .content2{
+        position: relative;
+    }
+
+    #registration .content2 dt{
+        font-size: 3.5rem;
+        letter-spacing: 0.15rem;
+        margin-top: 4.5rem;
+        margin-left: 1.5rem;
+        /* transform: translateX(4%); */
+        display: list-item;
+        list-style: none;
+        background: url(/img/02_font.png) no-repeat;
+        background-size: 27%;
+        padding: 0rem 0px 0rem 9.5rem;
+    }
+    #registration .content2 rt{
+        letter-spacing: -2rem;
+        padding-left: 1rem;
+        font-size: 1.6rem;
+    }
+    #registration .content2 dd{
+        font-size: 1rem;
+        width: 17.1rem;
+        margin-inline-start: 1.8rem
+    }
+
+    #registration .content3{
+        position: relative;
+    }
+
+    #registration .content3 dt{
+        font-size: 3.5rem;
+        letter-spacing: 0.3rem;
+        margin-top: 6.5rem;
+        margin-left: 7.2rem;
+        display: list-item;
+        list-style: none;
+        background: url(/img/03_font.png) no-repeat;
+        background-size: 35%;
+        padding: 0rem 0rem 0.5rem 9.5rem;
+    }
+    #registration .content3 rt{
+        letter-spacing: -3.5rem;
+        padding-left: 1rem;
+        font-size: 1.6rem;
+    }
+    #registration .content3 dd{
+        font-size: 1rem;
+        width: 28.1rem;
+        margin-inline-start: 2rem;
+    }
+
+    #registration .registrationFoot{
+        display: flex;
+        color: #ffff;
+        text-align: center;
+        margin-top: 4rem;
+    }
+    #registration .terms{
+        background-color: #FF0096;
+        width:50%;
+        padding: 2.9rem 0.5rem;
+    }
+
+    #registration .terms p{
+        font-size: 2.7rem;
+    }
+    #registration .terms span{
+        display: block;
+        font-size: 1.5rem;
+    }
+    #registration .register{
+        background-color: #FF0096;
+        width: 50%;
+        padding: 2.9rem 0.5rem;
+        margin-left: 0.1rem;
+    }
+    #registration .register p{
+        font-size: 2.7rem;
+    }
+    #registration .register span{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1024px) {
     /*デザイン*/
