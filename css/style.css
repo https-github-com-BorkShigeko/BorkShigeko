@@ -239,9 +239,9 @@ html {
     color: #707070;
 }
 #mv .mainVisual .mvPic .spShigeko{
-    width: 92%;
-    margin-left: 2.7rem;
-    margin-top: 3.5rem;
+    width: 80%;
+    right: 0;
+    margin: 3.5rem auto 0;
     position: relative;
 }
 #mv .mainVisual .mvPic .pcShigeko{
@@ -253,7 +253,7 @@ html {
     width: 92%;
     height: 33%;
     top: 5.2rem;
-    display: block;
+    transform: translate(4%, 4%);
 }
 #mv .BorkShigeko{
     background: url(/img/top_frame.png) center top no-repeat;
@@ -265,13 +265,14 @@ html {
 #mv .BorkShigeko h2{
     text-align: center;
     margin-top: 1rem;
-    padding-top: 1.9rem;
+    padding-top: 2.9rem;
     font-size: 5rem;
     color: #FF0096;
 }
 #mv .BorkShigeko h3{
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     text-align: center;
+    color: #707070;
     line-height: 1.2;
 }
 
@@ -293,7 +294,6 @@ html {
     width: 39.8rem;
     left: -4rem;
 }
-
 #why .whyShigeko{
     position: relative;
     width: 23.7rem;
@@ -352,7 +352,6 @@ html {
     position: relative;
     /*min-height: 91rem;*/
 }
-
 #registration .registrationTitle{
     background-color: #FF0096;
     position: relative;
@@ -365,7 +364,6 @@ html {
     text-align: center;
     transform: translateY(50%);
 }
-
 #registration .content1back{
     position: absolute;
     background-color: #FFEDED;
@@ -377,7 +375,6 @@ html {
 #registration .content1{
 position: relative;
 }
-
 #registration .content1 dt{
     font-size: 3.5rem;
     margin-top: 3.5rem;
@@ -398,14 +395,11 @@ position: relative;
     width: 17.1rem;
     transform: translateX(55%);
 }
-
-
 #registration .content2back{
     position: absolute;
     background-color: #FFEDED;
     width: 64%;
     height: 24.2rem;
-    right: 0;
     z-index: -1;
     transform: translateY(10%);
     left: 0;
@@ -413,7 +407,6 @@ position: relative;
 #registration .content2{
     position: relative;
 }
-
 #registration .content2 dt{
     font-size: 3.5rem;
     letter-spacing: 0.15rem;
@@ -436,11 +429,9 @@ position: relative;
     width: 17.1rem;
     margin-inline-start: 1.8rem
 }
-
 #registration .content3{
     position: relative;
 }
-
 #registration .content3 dt{
     font-size: 3.5rem;
     letter-spacing: 0.3rem;
@@ -462,7 +453,6 @@ position: relative;
     width: 28.1rem;
     margin-inline-start: 2rem;
 }
-
 #registration .registrationFoot{
     display: flex;
     color: #ffff;
@@ -474,7 +464,6 @@ position: relative;
     width:50%;
     padding: 2.9rem 0.5rem;
 }
-
 #registration .terms p{
 font-size: 2.7rem;
 }
@@ -497,7 +486,209 @@ font-size: 2.7rem;
 }
 
 
+/*sakurako-media*/
+#media .mySectionInner{
+    position: relative;
+    min-height: 28.5rem;
+}
+#media .mediaBack{
+    height: 100%;
+    background-color: #FFEDED;
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+}
+#media .mediaBack img{
+    width: 45.7rem;
+    position: relative;
+    transform: translate(-15%, 150%);
+}
+#media .mediaTitle{
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    padding: 2.4rem 0 0.5rem 0;
+    border-bottom: 0.8rem solid #FF0096;
+    width: 18.2rem;
+    line-height: 1;
+    margin: auto;
+}
 
+#media .mediaContents{
+    font-size: 1.2rem;
+    width: 26.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.4rem;
+    letter-spacing: 0.1rem;
+}
+#media .mediaButton{
+    background-color: #FF0096;
+    color: #ffff;
+    font-size: 2.3rem;
+    padding: 0.5rem;
+    line-height: 1;
+    text-align: center;
+    width: 13.8rem;
+    margin: 3rem auto 0;
+}
+
+
+/*sakurako-news*/
+#news .mySectionInner{
+    position: relative;
+    min-height: 24rem;
+}
+#news .newsBack1{
+    height: 80%;
+    background-color: #FFEDED;
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+#news .newsBack2{
+    background-color: #FFEDED;
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    height: 40%;
+    top: 80%;
+}
+#news .newsTitle{
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    padding: 2.4rem 0 0.5rem 0;
+    border-bottom: 0.8rem solid #FF0096;
+    width: 18.2rem;
+    line-height: 1;
+    margin: auto;
+}
+
+#news .newsContents h3{
+    font-size: 1.7rem;
+    width: 26.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    letter-spacing: -0.1rem;
+}
+#news .newsContents p{
+    font-size: 1.1rem;
+    width: 26.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+#news .newsMore{
+    text-align: center;
+    line-height: 1;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+
+
+
+/*sakurako-contact*/
+#contact .mySectionInner{
+    position: relative;
+    min-height: 22rem;
+}
+#contact .contactBack{
+    height: 81%;
+    background-color: #FFEDED;
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 19%;
+    right: 0;
+}
+#contact .contactTitle{
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    border-bottom: 0.8rem solid #FF0096;
+    width: 18.2rem;
+    line-height: 1;
+    margin: auto;
+}
+#contact .contactButton{
+    background: url(/img/contact-button.png);
+    text-align: center;
+    width: 24.1rem;
+    font-size: 1.5rem;
+    padding: 1.8rem 4.1rem;
+    margin: 2rem auto 0;
+    border: 1px solid #707070;
+    position: relative;
+}
+#contact .contactButtonBack{
+    position: absolute;
+    background-color:  #FF0096;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: translate(-15%, -15%);
+}
+
+
+/*footer*/
+footer{
+    background-color: #FF0096;
+    color: #FFFFFF;
+    font-family: Helvetica Neue;
+    min-height: 31.7rem;
+}
+.footerLogo{
+    width: 12.9rem;
+    margin: auto;
+}
+.footerSns{
+    display: flex;
+    margin: 2rem auto;
+    width: 25rem;
+}
+.footerSns img{
+    width: 6.5rem;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+}
+.footerSns a:nth-child(4) {
+    padding-top: 0.5rem;
+}
+.footerMenu{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: auto;
+}
+.top {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.footerMenu1{
+    display: flex;
+    padding: 1rem 4rem 0.5rem 4rem;
+}
+.footerMenu2{
+    display: flex;
+    padding: 0rem 2rem 0;
+}
+.member {
+    width: 200%;
+}
+.copyRight{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
 @media screen and (min-width: 768px) {
     html {
         font-size: 10px;
@@ -545,15 +736,15 @@ font-size: 2.7rem;
 
     /*sakurako-mv*/
     #mv .mySectionInner{
-        min-height: 229.2rem;
+        min-height: 224.2rem;
         margin-top: 8rem;
     }
     #mv .aboveMv h1{
-        font-size: 5rem;
+        font-size: 4rem;
         padding-top: 4.75rem;
     }
     #mv .mainVisual .mvPic .pcShigeko{
-        width: 82%;
+        width: 91.7rem;
         margin-left: auto;
         margin-right: auto;
         margin-top: 9.3rem;
@@ -566,10 +757,11 @@ font-size: 2.7rem;
     #mv .mainVisual .mvBack{
         background-color: #FF0096;
         position: absolute;
-        width: 63%;
-        height: 35%;
-        top: 15.3rem;
-        left: 4.4rem;
+        width: 71%;
+        height: 30%;
+        top: 13.3rem;
+        padding: auto;
+        left: 9rem;
     }
     #mv .BorkShigeko{
         background: url(/img/top_frame_pc.png) center top no-repeat;
@@ -578,13 +770,15 @@ font-size: 2.7rem;
         position: relative;
     }
     #mv .BorkShigeko h2{
-        margin-top: 2.6rem;
-        padding-top: 10.7rem;
-        font-size: 15rem;
+        margin-top: 6.6rem;
+        padding-top: 11.7rem;
+        font-size: 13rem;
     }
     #mv .BorkShigeko h3{
-        font-size: 8rem;
-        margin-top: 3rem;
+        font-size: 6rem;
+        margin-top: 7rem;
+        line-height: 1.5;
+
     }
 
 
@@ -593,10 +787,9 @@ font-size: 2.7rem;
     min-height: 189rem;
     }
     #why .shigekoLogo{
-        position: absolute;
         top: 25%;
-        width: 39.8rem;
-        left: -4rem;
+        width: 73rem;
+        transform: translate(40%, -25%);
     }
     #why .whyShigeko{
         position: relative;
@@ -637,154 +830,257 @@ font-size: 2.7rem;
 
 
     /*sakurako-registration*/
-    #registration .mySectionInner{
-        position: relative;
-        /*min-height: 91rem;*/
-    }
 
     #registration .registrationTitle{
-        background-color: #FF0096;
-        position: relative;
-        width: 80%;
-        font-size: 2.1rem;
-        height: auto;
-        padding: 0.7rem;
-        color: #ffff;
-        margin: auto;
-        text-align: center;
-        transform: translateY(50%);
-    }
+        width: 65%;
+        font-size: 6rem;
+        padding: 1.5rem;
+        margin-top: 2rem;
+        }
 
-    #registration .content1back{
-        position: absolute;
-        background-color: #FFEDED;
-        width: 64%;
-        height: 24.2rem;
-        right: 0;
-        z-index: -1;
-    }
-    #registration .content1{
-        position: relative;
-    }
+        #registration .content1back{
+            width: 47%;
+            height: 60.6rem;
+            top: 24rem;
+        }
 
-    #registration .content1 dt{
-        font-size: 3.5rem;
-        margin-top: 3.5rem;
-        transform: translateX(25%);
-        display: list-item;
-        list-style: none;
-        background: url(/img/01_font.png) no-repeat;
-        background-size: 24%;
-        padding: 0rem 0px 0rem 9rem;
-    }
-    #registration .content1 rt{
-        letter-spacing: -2rem;
-        padding-left: 2rem;
-        font-size: 1.6rem;
-    }
-    #registration .content1 dd{
-        font-size: 1rem;
-        width: 17.1rem;
-        transform: translateX(55%);
-    }
+        #registration .content1 dt{
+            font-size: 6.9rem;
+            margin-top: 22rem;
+            transform: translateX(56%);
+            display: list-item;
+            background-size: 12%;
+            padding: 0rem 0px 0rem 20rem;
+        }
+        #registration .content1 rt{
+            letter-spacing: -3.5rem;
+            padding-left: 3rem;
+            font-size: 2.5rem;
+        }
+        #registration .content1 dd{
+            font-size: 1.3rem;
+            width: 43.6rem;
+            transform: translateX(168%);
+            margin-top: 3rem;
+            letter-spacing: 0.4rem;
+            line-height: 3;
+        }
 
 
-    #registration .content2back{
-        position: absolute;
-        background-color: #FFEDED;
-        width: 64%;
-        height: 24.2rem;
-        right: 0;
-        z-index: -1;
-        transform: translateY(10%);
-        left: 0;
-    }
-    #registration .content2{
-        position: relative;
-    }
-
-    #registration .content2 dt{
-        font-size: 3.5rem;
-        letter-spacing: 0.15rem;
-        margin-top: 4.5rem;
-        margin-left: 1.5rem;
-        /* transform: translateX(4%); */
-        display: list-item;
-        list-style: none;
-        background: url(/img/02_font.png) no-repeat;
-        background-size: 27%;
-        padding: 0rem 0px 0rem 9.5rem;
-    }
+        #registration .content2back{
+            width: 47%;
+            height: 60.6rem;
+            transform: translateY(-45%);
+                }
+#registration .content2{
+    transform: translateY(-58%);
+}
+         #registration .content2 dt {
+             font-size: 6.9rem;
+             letter-spacing: 0.15rem;
+             transform: translateX(1%);
+             background-size: 14%;
+             padding: 0rem 0px 0rem 24rem;
+         }
     #registration .content2 rt{
-        letter-spacing: -2rem;
+        letter-spacing: -3rem;
         padding-left: 1rem;
-        font-size: 1.6rem;
+        font-size: 2.5rem;
     }
     #registration .content2 dd{
-        font-size: 1rem;
-        width: 17.1rem;
-        margin-inline-start: 1.8rem
+        font-size: 1.3rem;
+        width: 43.6rem;
+        margin-inline-start: 7.6rem;
+        margin-top: 3rem;
+        letter-spacing: 0.4rem;
+        line-height: 3;
     }
 
     #registration .content3{
-        position: relative;
+        transform: translate(8%, -15%);
     }
-
+#registration .content3 dl{
+    height: 20rem;
+}
     #registration .content3 dt{
-        font-size: 3.5rem;
-        letter-spacing: 0.3rem;
-        margin-top: 6.5rem;
-        margin-left: 7.2rem;
-        display: list-item;
-        list-style: none;
-        background: url(/img/03_font.png) no-repeat;
-        background-size: 35%;
-        padding: 0rem 0rem 0.5rem 9.5rem;
+        font-size: 6.9rem;
+        letter-spacing: 0.7rem;
+        background-size: 14%;
+        padding: 0rem 0rem 0.5rem 20.5rem;
     }
     #registration .content3 rt{
-        letter-spacing: -3.5rem;
-        padding-left: 1rem;
-        font-size: 1.6rem;
+        letter-spacing: -7.5rem;
+        padding-left: 2rem;
+        font-size: 2.5rem;
     }
     #registration .content3 dd{
-        font-size: 1rem;
-        width: 28.1rem;
-        margin-inline-start: 2rem;
+        font-size: 1.3rem; */
+    font-size: 1.3rem;
+        width: 43.6rem;
+        letter-spacing: 0.4rem;
+        line-height: 3;
+        transform: translate(135%, -77%);
     }
 
-    #registration .registrationFoot{
-        display: flex;
-        color: #ffff;
-        text-align: center;
-        margin-top: 4rem;
-    }
     #registration .terms{
-        background-color: #FF0096;
-        width:50%;
-        padding: 2.9rem 0.5rem;
+        padding: 8.3rem 0;
     }
 
     #registration .terms p{
-        font-size: 2.7rem;
+        font-size: 7rem;
     }
     #registration .terms span{
-        display: block;
-        font-size: 1.5rem;
+        font-size: 4rem;
     }
     #registration .register{
-        background-color: #FF0096;
-        width: 50%;
-        padding: 2.9rem 0.5rem;
-        margin-left: 0.1rem;
+        padding: 8.3rem 0.5rem;
     }
     #registration .register p{
-        font-size: 2.7rem;
+        font-size: 7rem;
     }
     #registration .register span{
-        display: block;
-        font-size: 1.5rem;
+        font-size: 4rem;
     }
 
+    /*sakurako-media*/
+    #media .mySectionInner{
+        min-height: 43.9rem;
+    }
+    #media .mediaBack img{
+        width: 66.6rem;
+        transform: translate(45%, 173%);
+    }
+    #media .mediaTitle{
+        font-size: 6rem;
+        padding: 3.4rem 0 1rem 0;
+        border-bottom: 1rem solid #FF0096;
+        width: 29.2rem;
+    }
+
+    #media .mediaContents{
+        font-size: 1.4rem;
+        width: 73.9rem;
+        margin-top: 6rem;
+        letter-spacing: 0.2rem;
+    }
+    #media .mediaButton{
+        font-size: 4.4rem;
+        padding: 1rem;
+        width: 27rem;
+        margin: 4rem auto 0;
+    }
+
+
+    /*sakurako-news*/
+    #news .mySectionInner{
+        position: relative;
+        min-height: 36rem;
+    }
+    #news .newsBack1{
+        height: 80%;
+        background-color: #FFEDED;
+        width: 50%;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+    }
+    #news .newsBack2{
+        height: 69%;
+    }
+    #news .newsTitle{
+        font-size: 6rem;
+        padding: 4rem 0 0.5rem 0;
+        border-bottom: 1rem solid #FF0096;
+        width: 29.2rem;
+    }
+
+    #news .newsContents h3{
+        font-size: 2rem;
+        width: 33rem;
+        letter-spacing: 0rem;
+    }
+    #news .newsContents p {
+        width: 40rem;
+    }
+
+    #news .newsMore{
+        margin: 2rem;
+    }
+
+
+
+
+    /*sakurako-contact*/
+    #contact .mySectionInner{
+        min-height: 44rem;
+    }
+    #contact .contactBack{
+        height: 65.5%;
+        top: 35%;
+    }
+    #contact .contactTitle{
+        font-size: 6rem;
+        padding: 1rem 0 1rem 0;
+        border-bottom: 1rem solid #FF0096;
+        width: 29.2rem;
+    }
+    #contact .contactButton{
+        width: 70rem;
+        font-size: 3rem;
+        padding: 2.5rem 0;
+        margin: 6rem auto 0;
+        border: 2px solid #707070;
+    }
+    #contact .contactButtonBack{
+        transform: translate(2%, -11%);
+    }
+
+
+/*footer*/
+    footer{
+        min-height: 52rem;
+    }
+    .footerLogo{
+        width: 19.8rem;
+        padding-top: 3rem;
+    }
+    .footerSns{
+        margin: 4rem 0rem 3rem 37rem;
+        width: 60rem;
+    }
+    .footerSns img{
+        width: 8.8rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+    .footerSns a:nth-child(4) {
+        padding-top: 1rem;
+    }
+    .footerMenu{
+        font-size: 3rem;
+    }
+    .top{
+        font-size: 3rem;
+    }
+    .footerMenu1{
+        padding: 1rem 35rem 0rem 35rem;
+    }
+    .footerMenu2{
+        padding: 0 30rem;
+    }
+    .member {
+        width: 80%;
+    }
+    .press{
+        width: 80%;
+    }
+    .blog{
+        width: 62%;
+    }
+    .copyRight{
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
 
 }
 
