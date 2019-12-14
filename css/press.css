@@ -1,0 +1,85 @@
+
+#press_ .mySectionInner{
+    position: relative;
+    min-height: 37.5rem;
+    top: 4rem;
+}
+
+#press_ .flower{
+    position: absolute;
+    width: 7rem;
+    transform: translate(30%, 17%);
+    z-index: 2;
+}
+#press_ h1{
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    border-bottom: 0.8rem solid #FF0096;
+    width: 18.2rem;
+    margin: auto;
+    line-height: 0.9;
+    transform: translateY(33%);
+}
+#press_ h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#press_  .article{
+    position: relative;
+}
+#press_ .article h3{
+    background-color: #FF0096;
+    color: #fff;
+    font-size: 2rem;
+    width: 11.5rem;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+#press_ .title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#press_ .summary{
+    font-size: 1.1rem;
+    margin: 1rem auto;
+    color: #707070;
+    width: 18rem;
+
+}
+#press_ .background{
+    background-color: #FFEDED;
+    width: 100%;
+    height: 13.8rem;
+    z-index: -1;
+    position: absolute;
+    margin-top: 3rem;
+}
+#press_ .media{
+    position: relative;
+}
+#press_ .media h3{
+    width: 18.8rem;
+    background-color: #FF0096;
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 7rem auto;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+#press_ .media p{
+
+}
+#press_ .media .shadow{
+    position: absolute;
+    background-color: #ffff;
+    width: 18.8rem;
+    height: 100%;
+}
+footer{
+    display: none;
+}
