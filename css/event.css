@@ -103,52 +103,86 @@
 }
 
 #near_ .nearDay{
-
+    position: relative;
+    width: 90%;
+    border-bottom: 0.1rem solid #707070;
+    margin: 3rem auto 0rem;
 }
 #near_ .nearDay h2{
-
+    background-color: #ff0096;
+    color: #fff;
+    width: 18.6rem;
+    font-size: 2.7rem;
+    line-height: 1;
+    padding: 1rem 3rem;
+    margin-left: 9.2rem;
 }
-#near_ .schedule1{
-
+#near_ .schedule{
+    position: relative;
 }
-#near_ .schedule1 ol{
-
+#near_ .schedule li{
+    padding: 2rem;
 }
-#near_ .schedule1 li{
-
+#near_ .schedule  li:nth-of-type(2){
+    background-color: #FFEDED;
 }
 #near_ .schedule1 time{
-
+font-size: 1.5rem;
+    color: #707070;
 }
-#near_ .schedule1 h3{
-
+#near_ .schedule h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-bottom: 0.5rem;
 }
-#near_ .schedule1 p{
-
+#near_ .schedule .summary{
+    font-size: 1.2rem;
+}
+#near_ .schedule .apply{
+    font-size: 1.2rem;
 }
 
-#near_ .schedule2{
 
-}
-#near_ .schedule2 ol{
 
-}
-#near_ .schedule2 li{
-
-}
-#near_ .schedule2 time{
-
-}
-#near_ .schedule2 h3{
-
-}
-#near_ .schedule2 p{
-
-}
 /*sakurako-log*/
 #log_ .mySectionInner{
     min-height: 45.2rem;
     position: relative;
+}
+#log_ .achievement{
+    position: relative;
+    width: 90%;
+    border-bottom: 0.1rem solid #707070;
+    margin: 3rem auto 0rem;
+}
+#log_ .achievement h2{
+    background-color: #ff0096;
+    color: #fff;
+    width: 14.1rem;
+    font-size: 2.7rem;
+    line-height: 1;
+    padding: 1rem 4rem;
+    margin-left: 1.4rem;
+}
+#log_ .logList{
+    position: absolute;
+    width: 100%;
+}
+
+#log_ li{
+    padding: 0.5rem 2rem 0.5rem;
+}
+#log_ .logList  li:nth-child(even){
+    background-color: #FFEDED;
+}
+#log_ h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #707070;
+}
+#log_ p{
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 footer{
     display: none;
