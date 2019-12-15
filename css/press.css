@@ -46,24 +46,23 @@
 }
 #press_ .summary{
     font-size: 1.1rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
     color: #707070;
     width: 18rem;
-
 }
 #press_ .background{
     background-color: #FFEDED;
     width: 100%;
-    height: 13.8rem;
+    height: 18rem;
     z-index: -1;
     position: absolute;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 #press_ .media{
     position: relative;
     width: 18.8rem;
     height: 4.4rem;
-    margin: 7rem auto;
+    margin: 8rem auto;
 }
 #press_ .media h3{
     background-color: #FF0096;

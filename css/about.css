@@ -121,12 +121,131 @@
     margin: 2rem auto;
     width: 25rem;
 }
-.footerSns img{
-}
+
 footer{
 display: none;
 }
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    #about_ .mySectionInner{
+        min-height: 146.6rem;
+        top: 8rem;
+    }
+    #about_ .background1{
+        width: 47%;
+        height: 26%;
+        top: 60.6rem;
+        left: 4.4rem;
+    }
+    #about_ .background2{
+        width: 47%;
+        height: 29%;
+        top: 20.9rem;
+        right: 4.4rem;
+    }
+    #about_ .sign{
+        width: 37.4rem;
+        top: 60.3rem;
+        left: 44.5rem;
+    }
+    #about_ .flower{
+        width: 15.6rem;
+        transform: translate(211%, 15%);
+    }
+    #about_ h1{
+        font-size: 8.1rem;
+        width: 41.4rem;
+        line-height: 1;
+        transform: translateY(40%);
+        border-bottom: 1rem solid #FF0096;
+    }
+    #about_ h2{
+        font-size: 3.5rem;
+        margin-top: 4rem;
+    }
+    #about_ .content{
+
+    }
+    #about_ .content1{
+        width: 100%;
+    }
+    #about_ .img1back{
+        width: 28%;
+        height: 23%;
+        left: 0;
+        transform: translateY(12%);
+    }
+    #about_ .img1{
+        width: 43.8rem;
+        height: 58.5rem;
+        background: url(/img/image.png);
+        margin: 0;
+        transform: translate(24%, 22%);
+    }
+    #about_ .detail1{
+        font-size: 1.2rem;
+        width: 43.6rem;
+        margin: 18rem auto 1.1rem 11rem;
+        line-height: 2.8rem;
+    }
+    #about_ .content2{
+        width: 100%;
+    }
+    #about_ .img2back{
+        width: 34%;
+        height: 21%;
+        left: auto;
+        right: 0;
+        top: 0;
+        transform: translateY(104%);
+}
+    #about_ .img2{
+        width: 41.9rem;
+        height: 53.4rem;
+        background: url(/img/image.png);
+        margin: 0rem auto 5rem;
+        transform: translate(150%, -156%);
+    }
+    #about_ .detail2{
+        font-size: 1.2rem;
+        width: 43.6rem;
+        margin: 18rem auto 1.1rem 11rem;
+        line-height: 2.8rem;
+    }
+    #about_ .aboutFooter{
+        background-color: #FF0096;
+        color: #fff;
+        min-height: 13.6rem;
+    }
+    .aboutFooter p{
+        font-size: 2.7rem;
+        text-decoration: underline;
+        position: relative;
+
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .footerSns{
+        display: flex;
+        margin: 2rem auto;
+        width: 25rem;
+    }
 }

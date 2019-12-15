@@ -1,0 +1,90 @@
+#blog_ .mySectionInner{
+    position: relative;
+    min-height: 56.8rem;
+    top: 4rem;
+}
+
+#blog_ .flower{
+    position: absolute;
+    width: 7rem;
+    transform: translate(30%, 17%);
+    z-index: 2;
+}
+#blog_ h1{
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    border-bottom: 0.8rem solid #FF0096;
+    width: 18.2rem;
+    margin: auto;
+    line-height: 0.9;
+    transform: translateY(33%);
+}
+#blog_ h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+#blog_ .happiness{
+
+}
+#blog_ .happiness p{
+    color: #FF0096;
+    text-align: center;
+}
+#blog_ .happiness img{
+    width: 16rem;
+    margin: auto;
+}
+#blog_ .article{
+    margin: 2rem 3rem;
+}
+#blog_ .pic{
+
+}
+#blog_ .article h3{
+    font-size: 1.4rem;
+    padding-left: 2rem;
+}
+#blog_ .img2back{
+    background: url(/img/spring-flowers-110671_1280.jpg) center;
+    background-size: cover;
+    opacity: 0.5;
+    width: 26.4rem;
+    height: 18.6rem;
+    transform: rotate(-10deg);
+    margin: 0rem 0rem;
+    position: absolute;
+}
+#blog_ .img2{
+    position: relative;
+    background: url(/img/image.png);
+    width: 26.4rem;
+    margin: 1rem auto 4rem;
+    height: 17.2rem;
+    border: 0.5rem solid #fff;
+}
+
+#blog_ .detail2{
+    font-size: 1.1rem;
+    width: 22rem;
+    /* height: 24.3rem; */
+    margin: 2rem auto;
+    line-height: 2.2rem;
+}
+#blog_ .detail2 .summary{
+    font-size: 1.1rem;
+    width: 20rem;
+    margin: auto;
+}
+#blog_ .detail2 .lasting{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+footer{
+    display: none;
+}
