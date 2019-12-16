@@ -87,3 +87,78 @@
 footer{
     display: none;
 }
+
+@media screen and (min-width: 768px) {
+
+    #press_ .mySectionInner{
+        min-height: 80rem;
+        top: 8rem;
+    }
+
+    #press_ .flower{
+        width: 15.6rem;
+        transform: translate(211%, 15%);
+    }
+    #press_ h1{
+        font-size: 8.1rem;
+        width: 41.4rem;
+        line-height: 1;
+        transform: translateY(40%);
+        border-bottom: 1rem solid #FF0096;
+    }
+    #press_ h2{
+        font-size: 3.5rem;
+        margin-top: 4rem;
+    }
+
+    #press_  .article{
+        position: relative;
+    }
+    #press_ .article h3{
+        background-color: #FF0096;
+        color: #fff;
+        font-size: 2rem;
+        width: 11.5rem;
+        margin: 2rem auto;
+        text-align: center;
+        padding: 0.5rem 1rem;
+    }
+    #press_ .title{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #press_ .summary{
+        font-size: 1.1rem;
+        margin: 2rem auto;
+        color: #707070;
+        width: 18rem;
+    }
+    #press_ .background{
+        height: 33.4rem;
+        /* z-index: -1; */
+        /* position: absolute; */
+        margin-top: 4rem;
+    }
+    #press_ .media{
+        width: 40.8rem;
+        height: 7.2rem;
+        margin: 16rem auto;
+    }
+    #press_ .media h3{
+        font-size: 3rem;
+        width: 40.8rem;
+    }
+    #press_ .media p{
+        font-size: 1.2rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    #press_ .media .shadow{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 0rem;
+    }
+    footer{
+        display: none;
+    }
+}
