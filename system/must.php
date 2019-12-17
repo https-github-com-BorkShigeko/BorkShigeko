@@ -5,7 +5,7 @@ function getHeader($mode)
     $headerStatus = [
         'top'=>
             [
-                'title'=>'TOPページ',
+                'title'=>'TOP',
                 'keywords'=>'A,B,C',
                 'description'=>'詳細が入ります。',
                 'css'=>'<link rel="stylesheet" href="/css/slick.css">',
@@ -13,12 +13,44 @@ function getHeader($mode)
             ],
         'about'=>
             [
-                'title'=>'Aboutページ',
+                'title'=>'ABOUT',
                 'keywords'=>'A,B,C',
                 'description'=>'詳細が入ります。',
                 'css'=>'<link rel="stylesheet" href="/css/about.css">',
                 'noindex'=>'<meta name="robots" content="noindex">'
-            ]
+            ],
+        'book'=>
+            [
+                'title'=>'BOOK',
+                'keywords'=>'A,B,C',
+                'description'=>'詳細が入ります。',
+                'css'=>'<link rel="stylesheet" href="/css/book.css">',
+                'noindex'=>'<meta name="robots" content="noindex">'
+            ],
+        'event'=>
+            [
+                'title'=>'EVENT',
+                'keywords'=>'A,B,C',
+                'description'=>'詳細が入ります。',
+                'css'=>'<link rel="stylesheet" href="/css/event.css">',
+                'noindex'=>'<meta name="robots" content="noindex">'
+            ],
+        'press'=>
+            [
+                'title'=>'PRESS',
+                'keywords'=>'A,B,C',
+                'description'=>'詳細が入ります。',
+                'css'=>'<link rel="stylesheet" href="/css/press.css">',
+                'noindex'=>'<meta name="robots" content="noindex">'
+            ],
+        'blog'=>
+            [
+                'title'=>'BLOG',
+                'keywords'=>'A,B,C',
+                'description'=>'詳細が入ります。',
+                'css'=>'<link rel="stylesheet" href="/css/blog.css">',
+                'noindex'=>'<meta name="robots" content="noindex">'
+            ],
     ];
     echo '
 <!DOCTYPE html>
@@ -75,12 +107,12 @@ function getHeader($mode)
                     </div>
                     <ul class="en">
                         <li><a href="/"><p>TOP</p></a></li>
-                        <li><a href="about.php"><p>ABOUT</p></a></li>
-                        <li><a href="book.php"><p>BOOK</p></a></li>
-                        <li><a href="event.php"><p>EVENT</p></a></li>
+                        <li><a href="/about"><p>ABOUT</p></a></li>
+                        <li><a href="index.php"><p>BOOK</p></a></li>
+                        <li><a href="index.php"><p>EVENT</p></a></li>
                         <li><a href="member.php"><p>MEMBER PAGE</p></a></li>
-                        <li><a href="press.php"><p>PRESS</p></a></li>
-                        <li><a href="blog.php"><p>BLOG</p></a></li>
+                        <li><a href="index.php"><p>PRESS</p></a></li>
+                        <li><a href="index.php"><p>BLOG</p></a></li>
                     </ul>
                 </div>
             </div>

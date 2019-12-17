@@ -9,7 +9,7 @@ getHeader('about');
         <div class="background2"></div>
         <div class="sign"><img src="/img/about_sign.png"></div>
         <div class="mySectionTitle">
-            <img class="flower" src="img/flower.svg">
+            <img class="flower" src="../img/flower.svg">
             <h1>ABOUT</h1>
             <h2>自己紹介</h2>
         </div>

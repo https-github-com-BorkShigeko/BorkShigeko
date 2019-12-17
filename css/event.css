@@ -184,9 +184,7 @@ font-size: 1.5rem;
     font-size: 1.2rem;
     line-height: 1.5;
 }
-footer{
-    display: none;
-}
+
 @media screen and (min-width: 768px) {
     #event_ .mySectionInner{
         min-height: 154rem;
@@ -337,7 +335,5 @@ background-color: #FFEDED;
     font-size: 2.2rem;
     line-height: 1.5;
 }
-footer{
-display: none;
-}
+
 }

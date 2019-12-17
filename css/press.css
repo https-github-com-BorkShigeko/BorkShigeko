@@ -1,7 +1,6 @@
 
 #press_ .mySectionInner{
     position: relative;
-    min-height: 37.5rem;
     top: 4rem;
 }
 
@@ -84,14 +83,11 @@
     transform: translate(3%, -84%);
     z-index: -1;
 }
-footer{
-    display: none;
-}
+
 
 @media screen and (min-width: 768px) {
 
     #press_ .mySectionInner{
-        min-height: 80rem;
         top: 8rem;
     }
 
@@ -158,7 +154,5 @@ footer{
         font-size: 1.2rem;
         margin-top: 0rem;
     }
-    footer{
-        display: none;
-    }
+
 }

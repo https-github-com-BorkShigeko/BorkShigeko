@@ -52,12 +52,12 @@
                     </div>
                     <ul class="en">
                         <li><a href="/"><p>TOP</p></a></li>
-                        <li><a href="about.php"><p>ABOUT</p></a></li>
-                        <li><a href="book.php"><p>BOOK</p></a></li>
-                        <li><a href="event.php"><p>EVENT</p></a></li>
+                        <li><a href="about/index.php"><p>ABOUT</p></a></li>
+                        <li><a href="book/index.php"><p>BOOK</p></a></li>
+                        <li><a href="event/index.php"><p>EVENT</p></a></li>
                         <li><a href="member.php"><p>MEMBER PAGE</p></a></li>
-                        <li><a href="press.php"><p>PRESS</p></a></li>
-                        <li><a href="blog.php"><p>BLOG</p></a></li>
+                        <li><a href="press/index.php"><p>PRESS</p></a></li>
+                        <li><a href="blog/index.php"><p>BLOG</p></a></li>
                     </ul>
                 </div>
             </div>
