@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="/css/slick-theme.css">
     <link rel="stylesheet" href="/css/slide.css">
     <link rel="stylesheet" href="/css/my.css">
+    <link rel="stylesheet" href="/css/book.css">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/press.css">
     <link rel="stylesheet" href="/css/myAnimation.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -53,35 +53,49 @@
                     </div>
                     <ul class="en">
                         <li><a href="/"><p>TOP</p></a></li>
-                        <li><a href="about.html"><p>ABOUT</p></a></li>
-                        <li><a href="book.html"><p>BOOK</p></a></li>
-                        <li><a href="event.html"><p>EVENT</p></a></li>
-                        <li><a href="member.html"><p>MEMBER PAGE</p></a></li>
-                        <li><a href="press.html"><p>PRESS</p></a></li>
-                        <li><a href="blog.html"><p>BLOG</p></a></li>
+                        <li><a href="about.php"><p>ABOUT</p></a></li>
+                        <li><a href="book.php"><p>BOOK</p></a></li>
+                        <li><a href="event.php"><p>EVENT</p></a></li>
+                        <li><a href="member.php"><p>MEMBER PAGE</p></a></li>
+                        <li><a href="press.php"><p>PRESS</p></a></li>
+                        <li><a href="blog.php"><p>BLOG</p></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <main>
-            <div class="mySection" id="press_">
+            <div class="mySection" id="book_">
                 <div class="mySectionInner">
-
+                    <div class="background2"></div>
                     <img class="flower" src="img/flower.svg" >
-                    <h1>PRESS</h1>
-                    <h2>プレス</h2>
-                    <div class="article">
-                        <h3>最新記事</h3>
-                        <p class="title">あああああああああああああああ</p>
-                        <p class="summary">あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+                    <h1>BOOK</h1>
+                    <h2>著書</h2>
+                    <div class="content">
+                        <div class="content1">
+                            <div class="new">
+                            <h3>新刊</h3>
+                                <div class="shadow"></div>
+                            </div>
+                            <div class="img"></div>
+                            <div class="detail1">
+                                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+                            </div>
+                        </div>
+                        <div class="content2">
+                            <div class="img2back1"></div>
+                            <div class="img2back2"></div>
+                            <div class="bookList">
+                                <h3>ボーク重子の著書</h3>
+                                <div class="shadow"></div>
+                            </div>
+                            <div class="img2"></div>
+                            <div class="detail2">
+                                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+                            </div>
+
                     </div>
-                    <div class="background"></div>
-                    <div class="media">
-                        <h3>これまで登場したメディア</h3>
-                        <div class="shadow"></div>
-                        <p>クリックして一覧を確認できます</p>
-                    </div>
+                </div>
                 </div>
             </div>
         </main>

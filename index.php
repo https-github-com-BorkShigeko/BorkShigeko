@@ -51,12 +51,12 @@
                     </div>
                     <ul class="en">
                         <li><a href="/"><p>TOP</p></a></li>
-                        <li><a href="about.html"><p>ABOUT</p></a></li>
-                        <li><a href="book.html"><p>BOOK</p></a></li>
-                        <li><a href="event.html"><p>EVENT</p></a></li>
-                        <li><a href="member.html"><p>MEMBER PAGE</p></a></li>
-                        <li><a href="press.html"><p>PRESS</p></a></li>
-                        <li><a href="blog.html"><p>BLOG</p></a></li>
+                        <li><a href="about.php"><p>ABOUT</p></a></li>
+                        <li><a href="book.php"><p>BOOK</p></a></li>
+                        <li><a href="event.php"><p>EVENT</p></a></li>
+                        <li><a href="member.php"><p>MEMBER PAGE</p></a></li>
+                        <li><a href="press.php"><p>PRESS</p></a></li>
+                        <li><a href="blog.php"><p>BLOG</p></a></li>
                     </ul>
                 </div>
             </div>

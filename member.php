@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="/css/slick-theme.css">
     <link rel="stylesheet" href="/css/slide.css">
     <link rel="stylesheet" href="/css/my.css">
-    <link rel="stylesheet" href="/css/blog.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/myAnimation.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -53,41 +52,18 @@
                     </div>
                     <ul class="en">
                         <li><a href="/"><p>TOP</p></a></li>
-                        <li><a href="about.html"><p>ABOUT</p></a></li>
-                        <li><a href="book.html"><p>BOOK</p></a></li>
-                        <li><a href="event.html"><p>EVENT</p></a></li>
-                        <li><a href="member.html"><p>MEMBER PAGE</p></a></li>
-                        <li><a href="press.html"><p>PRESS</p></a></li>
-                        <li><a href="blog.html"><p>BLOG</p></a></li>
+                        <li><a href="about.php"><p>ABOUT</p></a></li>
+                        <li><a href="book.php"><p>BOOK</p></a></li>
+                        <li><a href="event.php"><p>EVENT</p></a></li>
+                        <li><a href="member.php"><p>MEMBER PAGE</p></a></li>
+                        <li><a href="press.php"><p>PRESS</p></a></li>
+                        <li><a href="blog.php"><p>BLOG</p></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <main>
-            <div class="mySection" id="blog_">
-                <div class="mySectionInner">
-                    <img class="flower" src="img/flower.svg" >
-                    <h1>BLOG</h1>
-                    <h2>ブログ</h2>
-                    <div class="happiness">
-                        <img  src="/img/Happiness_Today.png">
-                    <p>今日のハピネス</p>
-                    </div>
-                    <div class="article">
-                        <h3>最新の記事</h3>
-
-                        <div class="img2back"></div>
-                        <div class="img2"></div>
-
-                        <div class="detail2">
-
-                            <p class="summary">ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                            <p class="lasting">続きを読む(他サイトに移ります)</p>
-                        </div>
-                </div>
-            </div>
-            </div>
         </main>
 
         <footer>
