@@ -99,7 +99,7 @@ h1,h2,h3 ,h4 {
     }
 
     .myGlobalNav ul {
-        display: flex;
+        /*display: flex;*/
     }
 
     .myGlobalNav li {
@@ -1053,6 +1053,7 @@ footer{
 /*footer*/
     footer{
         min-height: 52rem;
+        margin-top: 10rem;
     }
     .footerLogo{
         width: 19.8rem;

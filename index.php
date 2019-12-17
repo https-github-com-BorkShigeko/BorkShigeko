@@ -1,252 +1,174 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="robots" content="noindex">
-        <!--<link rel="shortcut icon" href="/img/favicon.ico">-->
-    <title></title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/slick.css">
-    <link rel="stylesheet" href="/css/slick-theme.css">
-    <link rel="stylesheet" href="/css/slide.css">
-    <link rel="stylesheet" href="/css/my.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/myAnimation.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-</head>
-<body class="show">
-<div class="wrapper">
-    <div class="main container show">
-        <header>
-            <div class="topHeader">
-                <div class="hamburger myBack">
-                    <div class="container">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="topLogo">
-                    <img src="/img/top_logo.png" alt="Shigeko Bork">
-                </div>
-                <div class="forMember">
-                    <a href="...">
-                        <p>有料会員ページ</p>
-                    </a>
+<?php
+ini_set('display_errors', "On");
+require_once($_SERVER['DOCUMENT_ROOT'] . '/system/must.php');
+getHeader('top');
+?>
+
+    <div class="mySection" id="mv">
+        <div class="mySectionInner">
+
+            <div class="aboveMv">
+                <h1>あああああああああああああ</h1>
+            </div>
+            <div class="mainVisual">
+                <div class="mvBack"></div>
+                <div class="mvPic">
+                    <img class="spShigeko" src="img/top_shigeko.png" alt="Shigeko pic(sp)">
+                    <img class="pcShigeko" src="img/top_shigeko_pc.png" alt="Shigeko pic(pc)">
                 </div>
             </div>
-
-        </header>
-        <nav class="myGlobalNav myBack">
-            <div class="container mySection myBack">
-                <div class="mySectionInner">
-                    <div class="mySectionTitle">
-                        <h2 class="en">MENU</h2>
-                        <p class="mySubTitle">メニュー</p>
-                    </div>
-                    <ul class="en">
-                        <li><a href="/"><p>TOP</p></a></li>
-                        <li><a href="about.php"><p>ABOUT</p></a></li>
-                        <li><a href="book.php"><p>BOOK</p></a></li>
-                        <li><a href="event.php"><p>EVENT</p></a></li>
-                        <li><a href="member.php"><p>MEMBER PAGE</p></a></li>
-                        <li><a href="press.php"><p>PRESS</p></a></li>
-                        <li><a href="blog.php"><p>BLOG</p></a></li>
-                    </ul>
-                </div>
+            <div class="BorkShigeko">
+                <h2>ボーク重子</h2>
+                <h3>あああああああ<br>
+                    +<br>
+                    あああああああ<br>
+                    +<br>
+                    あああああああ<br>
+                    =<br>
+                    あああああああ
+                </h3>
             </div>
-        </nav>
-
-        <main>
-            <div class="mySection" id="mv">
-                <div class="mySectionInner">
-
-                    <div class = "aboveMv">
-                        <h1>あああああああああああああ</h1>
-                    </div>
-                    <div class = "mainVisual">
-                        <div class="mvBack"></div>
-                        <div class="mvPic">
-                            <img class="spShigeko" src="img/top_shigeko.png" alt="Shigeko pic(sp)">
-                            <img class="pcShigeko" src="img/top_shigeko_pc.png" alt="Shigeko pic(pc)">
-                        </div>
-                    </div>
-                    <div class = "BorkShigeko">
-                        <h2>ボーク重子</h2>
-                        <h3>あああああああ<br>
-                            +<br>
-                            あああああああ<br>
-                            +<br>
-                            あああああああ<br>
-                            =<br>
-                            あああああああ
-                        </h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mySection" id="why">
-                <div class="mySectionInner">
-                    <div class="mySectionBack"></div>
-                    <div class="shigekoLogo">
-                        <img src="/img/shigeko_font.png" alt="shigeko Bork">
-                    </div>
-                        <div class="whyShigeko">
-                            <img src="img/why_back.png" alt="fukidashi">
-                        </div>
-                        <div class="whyLetter">
-                            <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                        </div>
-                        <div class="happyLife">
-                            <h2>自分史上最高に幸せになる!<br>
-                                ああああああああああああ</h2>
-                            <img src="/img/line.png" alt="line">
-                        </div>
-                    <div class="messageMoveBack"></div>
-                        <div class="messageMovie"></div>
-                        <p class="messageMovieP">Message Movie</p>
-                </div>
-            </div>
-
-            <div class="mySection" id="registration">
-                <div class="mySectionInner">
-                    <h2 class="registrationTitle">会員登録(有料)のご案内</h2>
-                    <div class="content1back"></div>
-
-                    <div class="content1">
-                        <dl>
-                            <dt><ruby><rb>Message</rb><rp>(</rp><rt>メッセージ</rt><rp>)</rp></ruby></dt>
-                        <dd>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</dd>
-                        </dl>
-                    </div>
-
-                    <img class="signature" src="...">
-
-                    <div class="content2back"></div>
-                    <div class="content2">
-                        <dl>
-                            <dt><ruby><rb>Special</rb><rp>(</rp><rt>スペシャル</rt><rp>)</rp></ruby></dt>
-                            <dd>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</dd>
-                        </dl>
-                    </div>
-
-                    <div class="content3">
-                        <dl>
-                            <dt><ruby><rb>Price</rb><rp>(</rp><rt>会費</rt><rp>)</rp></ruby></dt>
-                            <dd>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</dd>
-                        </dl>
-                    </div>
-                    <div class="registrationFoot">
-                        <div class="terms">
-                            <p>規約
-                                <span>Terms of Service</span></p>
-                        </div>
-                        <div class="register">
-                            <p>加入する
-                                <span>Registration</span></p>
-                    </div>
-            </div>
-                </div>
-            </div>
-
-            <div class="mySection" id="media">
-                <div class="mySectionInner">
-                    <div class="mediaBack">
-                        <img src="img/rose.png">
-                    </div>
-
-                    <div class="mediaTitle">
-                        <h2>Media</h2>
-                    </div>
-                    <div class="mediaContents">
-                        <p>ああああああああああああああああ/あああああああああああああああああああああああああああ/ああああああ/ああああああああああああああ/ああああああああああああああああああああああああ/あああああああああ
-                        </p>
-                    </div>
-                    <div class="mediaButton">
-                        <a href="..."><p>More >></p></a>
-                    </div>
-                </div>
-            </div>
-            <div class="mySection" id="news">
-                <div class="mySectionInner">
-                    <div class="newsBack1"></div>
-                    <div class="newsBack2"></div>
-                    <div class="newsTitle">
-                        <h2>News</h2>
-                    </div>
-                    <div class="newsContents">
-                        <h3>最新記事：あああああああああああ</h3>
-                        <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                    </div>
-                    <div class="newsMore">
-                        <a href="..."><p>続きを読む</p></a>
-                    </div>
-                </div>
-            </div>
-            <div class="mySection" id="contact">
-                <div class="mySectionInner">
-                    <div class="contactBack"></div>
-                    <div class="contactTitle">
-                        <h2>Contact</h2>
-                    </div>
-                    <div class="contactButton">
-                        <div class="contactButtonBack"></div>
-                        <a href="..."><p>メールでお問い合わせ<br>
-                        取材はこちらまで</p></a>
-                    </div>
-                </div>
-            </div>
-
-        </main>
-        <footer>
-
-                <img class="footerLogo" src="img/footerShigekoBork.png">
-                <div class="footerSns">
-                    <a href="..."><img src="img/about_facebook.png"></a>
-                    <a href="..."><img src="img/about_instagram.png"></a>
-                    <a href="..."><img src="img/about_twitter.png"></a>
-                    <a href="..."><img src="img/about_youtube.png"></a>
-                </div>
-                <div class="footerMenu">
-                    <a class="top" href="..."><p>TOP</p></a>
-                    <div class="footerMenu1">
-                        <a class="about" href="..."><p>ABOUT</p></a>
-                        <a class="book" href="..."><p>BOOK</p></a>
-                        <a class="event" href="..."><p>EVENT</p></a>
-                    </div>
-                    <div class="footerMenu2">
-                        <a class="member" href="..."><p>MEMBER PAGE</p></a>
-                        <a class="press" href="..."><p>PRESS</p></a>
-                        <a class="blog" href="..."><p>BLOG</p></a>
-                    </div>
-                </div>
-                <div class="copyRight"><p>&copyCOPYRIGHT XXXXXXXXXX</p></div>
-
-        </footer>
+        </div>
     </div>
-</div>
-<script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
-<script src="/js/jquery.inview.min.js"></script>
-<script src="/js/hamburger.js"></script>
-<script src="/js/vh.js"></script>
-<script src="/js/accordion.js"></script>
-<script src="/js/slide.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/tab.js"></script>
-<script src="/js/colorBox.js"></script>
-<script src="/js/myAnimation.js"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
 
-</body>
-</html>
+    <div class="mySection" id="why">
+        <div class="mySectionInner">
+            <div class="mySectionBack"></div>
+            <div class="shigekoLogo">
+                <img src="/img/shigeko_font.png" alt="shigeko Bork">
+            </div>
+            <div class="whyShigeko">
+                <img src="img/why_back.png" alt="fukidashi">
+            </div>
+            <div class="whyLetter">
+                <p>
+                    ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+            </div>
+            <div class="happyLife">
+                <h2>自分史上最高に幸せになる!<br>
+                    ああああああああああああ</h2>
+                <img src="/img/line.png" alt="line">
+            </div>
+            <div class="messageMoveBack"></div>
+            <div class="messageMovie"></div>
+            <p class="messageMovieP">Message Movie</p>
+        </div>
+    </div>
+
+    <div class="mySection" id="registration">
+        <div class="mySectionInner">
+            <h2 class="registrationTitle">会員登録(有料)のご案内</h2>
+            <div class="content1back"></div>
+
+            <div class="content1">
+                <dl>
+                    <dt>
+                        <ruby>
+                            <rb>Message</rb>
+                            <rp>(</rp>
+                            <rt>メッセージ</rt>
+                            <rp>)</rp>
+                        </ruby>
+                    </dt>
+                    <dd>
+                        ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </dd>
+                </dl>
+            </div>
+
+            <img class="signature" src="...">
+
+            <div class="content2back"></div>
+            <div class="content2">
+                <dl>
+                    <dt>
+                        <ruby>
+                            <rb>Special</rb>
+                            <rp>(</rp>
+                            <rt>スペシャル</rt>
+                            <rp>)</rp>
+                        </ruby>
+                    </dt>
+                    <dd>
+                        ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="content3">
+                <dl>
+                    <dt>
+                        <ruby>
+                            <rb>Price</rb>
+                            <rp>(</rp>
+                            <rt>会費</rt>
+                            <rp>)</rp>
+                        </ruby>
+                    </dt>
+                    <dd>
+                        ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </dd>
+                </dl>
+            </div>
+            <div class="registrationFoot">
+                <div class="terms">
+                    <p>規約
+                        <span>Terms of Service</span></p>
+                </div>
+                <div class="register">
+                    <p>加入する
+                        <span>Registration</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mySection" id="media">
+        <div class="mySectionInner">
+            <div class="mediaBack">
+                <img src="img/rose.png">
+            </div>
+
+            <div class="mediaTitle">
+                <h2>Media</h2>
+            </div>
+            <div class="mediaContents">
+                <p>ああああああああああああああああ/あああああああああああああああああああああああああああ/ああああああ/ああああああああああああああ/ああああああああああああああああああああああああ/あああああああああ
+                </p>
+            </div>
+            <div class="mediaButton">
+                <a href="..."><p>More >></p></a>
+            </div>
+        </div>
+    </div>
+    <div class="mySection" id="news">
+        <div class="mySectionInner">
+            <div class="newsBack1"></div>
+            <div class="newsBack2"></div>
+            <div class="newsTitle">
+                <h2>News</h2>
+            </div>
+            <div class="newsContents">
+                <h3>最新記事：あああああああああああ</h3>
+                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+            </div>
+            <div class="newsMore">
+                <a href="..."><p>続きを読む</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="mySection" id="contact">
+        <div class="mySectionInner">
+            <div class="contactBack"></div>
+            <div class="contactTitle">
+                <h2>Contact</h2>
+            </div>
+            <div class="contactButton">
+                <div class="contactButtonBack"></div>
+                <a href="..."><p>メールでお問い合わせ<br>
+                        取材はこちらまで</p></a>
+            </div>
+        </div>
+    </div>
+
+<?php getFooter(); ?>

@@ -1,8 +1,9 @@
 
 #about_ .mySectionInner{
     position: relative;
-    min-height: 161.6rem;
-    top: 4rem;
+
+    /*top: 4rem;*/
+    padding-top: 4rem;
 }
 #about_ .background1{
     position: absolute;
@@ -88,7 +89,8 @@
     width: 36%;
     height: 7.2%;
     left: 0;
-    transform: translateY(194%);
+
+    /*transform: translateY(194%);*/
 }
 #about_ .img2{
     width: 26.4rem;
@@ -122,10 +124,10 @@
     width: 25rem;
 }
 
-footer{
-display: none;
-}
 
+.mySectionTitle{
+    position: relative;
+}
 
 
 
@@ -146,8 +148,9 @@ display: none;
     }
 
     #about_ .mySectionInner{
-        min-height: 146.6rem;
-        top: 8rem;
+
+        /*top: 8rem;*/
+        padding-top: 8rem;
     }
     #about_ .background1{
         width: 47%;
@@ -166,15 +169,18 @@ display: none;
         top: 60.3rem;
         left: 44.5rem;
     }
-    #about_ .flower{
+    #about_ .flower {
         width: 15.6rem;
-        transform: translate(211%, 15%);
+        /* transform: translate(211%, 15%); */
+        left: 50%;
+        top: 0;
+        transform: translateX(-29rem);
     }
     #about_ h1{
         font-size: 8.1rem;
         width: 41.4rem;
         line-height: 1;
-        transform: translateY(40%);
+        /*transform: translateY(40%);*/
         border-bottom: 1rem solid #FF0096;
     }
     #about_ h2{
@@ -182,52 +188,66 @@ display: none;
         margin-top: 4rem;
     }
     #about_ .content{
-
+display: flex;
     }
     #about_ .content1{
-        width: 100%;
+        width: 50%;
+    }
+    #about_ .contentInner{
+        width: 43.8rem;
+        position: relative;
+    }
+    #about_ .content1 .contentInner{
+        margin:0 8rem 0 auto;
+    }
+    #about_ .content2 .contentInner{
+        margin:0 auto 0 8rem;
     }
     #about_ .img1back{
-        width: 28%;
-        height: 23%;
-        left: 0;
-        transform: translateY(12%);
+        width: 36.4rem;
+        height: 41.2rem;
+        left: -12.2rem;
+        /*transform: translateY(12%);*/
     }
     #about_ .img1{
         width: 43.8rem;
         height: 58.5rem;
         background: url(/img/image.png);
-        margin: 0;
-        transform: translate(24%, 22%);
+        margin: 5.65rem 0 0;
+        /*transform: translate(24%, 22%);*/
+    }
+    #about_ .sign{
+        left: 50%;
+        transform: translateX(-50%);
     }
     #about_ .detail1{
         font-size: 1.2rem;
         width: 43.6rem;
-        margin: 18rem auto 1.1rem 11rem;
+        margin: 6.8rem auto 0 ;
         line-height: 2.8rem;
     }
     #about_ .content2{
-        width: 100%;
+        width: 50%;
     }
     #about_ .img2back{
-        width: 34%;
-        height: 21%;
+        width: 33.2rem;
+        height:35.3rem;
         left: auto;
-        right: 0;
-        top: 0;
-        transform: translateY(104%);
+        right: -13.2rem;
+        top: 31.4rem;
+        /*transform: translateY(104%);*/
 }
     #about_ .img2{
         width: 41.9rem;
         height: 53.4rem;
         background: url(/img/image.png);
         margin: 0rem auto 5rem;
-        transform: translate(150%, -156%);
+        /*transform: translate(150%, -156%);*/
     }
     #about_ .detail2{
         font-size: 1.2rem;
         width: 43.6rem;
-        margin: 18rem auto 1.1rem 11rem;
+        margin: 6.8rem auto 0;
         line-height: 2.8rem;
     }
     #about_ .aboutFooter{
