@@ -177,11 +177,13 @@
     body {
         font-size: 1.2rem;
     }
-    #book_ .mySectionInner{
+
+    #book_ .mySectionInner {
 
         top: 8rem;
     }
-    #book_ .background2{
+
+    #book_ .background2 {
         position: absolute;
         background-color: #FFEDED;
         width: 100%;
@@ -190,93 +192,149 @@
         right: 0;
         bottom: 0;
     }
-    #book_ .flower{
+
+    #book_ .flower {
         width: 15.6rem;
-        transform: translate(211%, 15%);
+        /* transform: translate(211%, 15%); */
+        left: 50%;
+        top: 0;
+        transform: translateX(-29rem);
     }
-    #book_ h1{
+
+    #book_ h1 {
         font-size: 8.1rem;
         width: 41.4rem;
         line-height: 1;
-        transform: translateY(40%);
+        /*transform: translateY(40%);*/
         border-bottom: 1rem solid #FF0096;
     }
-    #book_ h2{
+
+    #book_ h2 {
         font-size: 3.5rem;
         margin-top: 4rem;
     }
-    #book_ .content{
+
+    #book_ .content {
 
     }
-    #book_ .content1{
+
+    #book_ .opening {
+
+        font-size: 1.5rem;
+
+        width: 73.7rem;
+        line-height: 2.5;
+        margin: 5.6rem auto;
+    }
+
+    #book_ .content1 {
         width: 100%;
     }
-    #book_ .new h3{
-        font-size: 6rem;
-        width: 38.6rem;
+
+    #book_ .new h3 {
+        font-size: 5rem;
+        width: 25rem;
         padding: 1.5rem;
-        margin-left: 3.8rem;
-        margin-top: 4rem;
+        margin-left: 5.4rem;
+
     }
-    #book_ .new{
+
+    #book_ .new {
+        width: 94.8rem;
         border-bottom: 0.2rem solid #707070;
     }
-    #book_ .content1 .img{
-        width: 40rem;
-        height: 52.5rem;
-        margin: 4rem auto 6rem 16rem;
+
+    #book_ .content1 .img {
+        width: 34.5rem;
+        height: 45.2rem;
+        margin: 3.5rem auto 6rem 22rem;
     }
-    #book_ .content1 .shadow{
+
+    #book_ .content1 .shadow {
         height: 6.4rem;
-        width: 23%;
+        width: 18%;
     }
-    #book_ .detail1{
+
+    #book_ .detail1 {
+        position: relative;
         width: 43.6rem;
-        height: 26.7rem;
-        margin: 2rem 11rem 0rem auto;
-        line-height: 4rem;
-        transform: translateY(-150%);
+        height: 20.7rem;
+        margin: 0rem 18.5rem 0rem auto;
+        line-height: 3rem;
+        top: -40rem;
     }
-    #book_ .content2{
+
+    #book_ .content2 {
         width: 100%;
     }
-    #book_ .img2back1{width: 15.6rem;
-        height: 15.6rem;
-        margin-left: 10rem;
-        transform: translateY(-14%);
-    }
-    #book_ .img2back2{
+
+    #book_ .img2back1 {
         width: 15.6rem;
-        height: 15.6rem;
-        margin-right: 66rem;
-        transform: translateY(292%);
+        display: none;
     }
-    #book_ .bookList{
+
+    #book_ .img2back2 {
+        display: none;
+    }
+
+    #book_ .bookList {
+        width: 85rem;
         border-bottom: 0.2rem solid #707070;
         transform: translateY(-200%);
     }
-    #book_ .content2  h3{
-        height: 9rem;
-        width: 50.3rem;
-        transform: translate(107%, 1%);
-        font-size: 5rem;
+
+    #book_ .arrowR {
+        position: absolute;
+        width: 3.4rem;
+        height: 8.1rem;
+        top: 143rem;
+        right: 0;
+        margin-right: 11.7rem;
+    }
+
+    #book_ .arrowL {
+        position: absolute;
+        width: 3.4rem;
+        height: 8.1rem;
+        top: 143rem;
+        margin-left: 11.7rem;
+    }
+
+    #book_ .content2 h3 {
+        height: 8rem;
+        width: 38.7rem;
+        margin: 0 auto 0 44rem;
+        /* transform: translate(107%, 1%); */
+        font-size: 3.8rem;
         padding: 2.5rem;
     }
-    #book_ .content2 .shadow{
+
+    #book_ .circles {
+        width: 16.5rem;
+        position: relative;
+        top: -12rem;
+        margin: 0rem auto 2.5rem 32rem;
+    }
+
+    #book_ .content2 .shadow {
         height: 6.4rem;
         width: 30%;
-        transform: translate(140%, -100%);
+        transform: translate(110%, -100%);
     }
-    #book_ .content2 .img2{
-        width: 40rem;
-        height: 52.5rem;
-        margin: -7rem auto 6rem 16.2rem;
+
+    #book_ .content2 .img2 {
+        width: 34.5rem;
+        height: 46.5rem;
+        top: -12rem;
+        margin: 0rem auto 4rem 22rem;
     }
-    #book_ .detail2{
+
+    #book_ .detail2 {
         width: 43.6rem;
-        height: 26.7rem;
-        margin: 2rem 11rem 0rem auto;
-        line-height: 4rem;
-        transform: translateY(-154%);
+        height: 19.1rem;
+        margin: 0rem 18.2rem 0rem auto;
+        line-height: 3rem;
+        top: -55rem;
+        position: relative;
     }
 }

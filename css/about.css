@@ -172,11 +172,11 @@ position: relative;
         /*top: 8rem;*/
         padding-top: 8rem;
     }
-    #about_ .background1{
-        width: 47%;
-        height: 26%;
-        top: 60.6rem;
-        left: 4.4rem;
+    #about_ .detail1 .background1 {
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        right: 0;
     }
     #about_ .background2{
         width: 47%;
@@ -185,9 +185,9 @@ position: relative;
         right: 4.4rem;
     }
     #about_ .sign{
-        width: 37.4rem;
-        top: 60.3rem;
-        left: 44.5rem;
+        width: 28.9rem;
+        left: 16.2rem;
+        top: 100rem;
     }
     #about_ .flower {
         width: 15.6rem;
@@ -196,7 +196,11 @@ position: relative;
         top: 0;
         transform: translateX(-29rem);
     }
-
+    #about_ .detail1 .history1 {
+        margin: 6.8rem 6.5rem 0rem 10.5rem;
+        font-size: 1.4rem;
+        line-height: 1.7;
+    }
     #about_ h1{
         font-size: 8.1rem;
         width: 41.4rem;
@@ -218,35 +222,37 @@ display: flex;
         width: 43.8rem;
         position: relative;
     }
-    #about_ .content1 .contentInner{
-        margin:0 8rem 0 auto;
+    #about_ .content1 .contentInner {
+        width: 100%;
+
     }
     #about_ .content2 .contentInner{
         margin:0 auto 0 8rem;
     }
-    #about_ .img1back{
-        width: 36.4rem;
-        height: 41.2rem;
-        left: -12.2rem;
-        /*transform: translateY(12%);*/
+
+    #about_ .content1 .img1 {
+        width: 39.4rem;
+        height: 59.2rem;
+        margin: 14.2rem auto 16rem;
     }
-    #about_ .img1{
-        width: 43.8rem;
-        height: 58.5rem;
-        background: url(/img/image.png);
-        margin: 5.65rem 0 0;
-        /*transform: translate(24%, 22%);*/
+    #about_ .img1back {
+        width: 22.9rem;
+        height: 22.9rem;
+        left: 0;
+        margin-left: 4.6rem;
+        transform: translateY(-6.3rem);
     }
-    #about_ .sign{
-        left: 50%;
-        transform: translateX(-50%);
+    #about_ .detail1 h3 {
+
+        padding: 2.1rem;
+
     }
-    #about_ .detail1{
-        font-size: 1.2rem;
-        width: 43.6rem;
-        margin: 6.8rem auto 0 ;
-        line-height: 2.8rem;
-    }
+
+        #about_ .detail1 {
+            font-size: 2.5rem;
+            width: 100%;
+            line-height: 2.8rem;
+        }
     #about_ .content2{
         width: 50%;
     }
