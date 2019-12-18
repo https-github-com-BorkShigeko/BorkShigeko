@@ -1,8 +1,6 @@
 
 #about_ .mySectionInner{
     position: relative;
-
-    /*top: 4rem;*/
     padding-top: 4rem;
 }
 
@@ -17,8 +15,10 @@
 #about_ .flower{
     position: absolute;
     width: 7rem;
-    transform: translate(30%, 17%);
     z-index: 2;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-14rem);
 }
 #about_ h1{
     font-family: Helvetica Neue;
@@ -119,7 +119,9 @@ list-style: outside;
 #about_ .detail2{
   position: relative;
 }
-
+#about_ .detail2 .img2{
+    position: relative;
+}
 #about_ .detail2 .img2 .front{
 position: relative;
 }
@@ -127,7 +129,7 @@ position: relative;
     width: 41.9rem;
     height: 36.7rem;
     position: absolute;
-    top: 72rem;
+    top: -11rem;
     left: -5rem;
     z-index: -1;
 }
@@ -136,6 +138,9 @@ position: relative;
     position: relative;
 }
 
+#about_ .img{
+    position: relative;
+}
 /*#about_ .line1{*/
 /*    position: absolute;*/
 /*    height: 53.5rem;*/

@@ -1,15 +1,27 @@
 
 #event_ .mySectionInner{
     position: relative;
-    min-height: 95.6rem;
-    top: 4rem;
+    padding-top: 4rem;
 }
 
+#event_ .mySectionTitle{
+    position: relative;
+}
 #event_ .flower{
     position: absolute;
     width: 7rem;
-    transform: translate(30%, 17%);
     z-index: 2;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-14rem);
+}
+#event_ .opening{
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 26.2rem;
+    line-height: 1.9;
+    margin: 4.6rem auto 3.5rem;
 }
 #event_ h1{
     font-family: Helvetica Neue;
@@ -41,64 +53,62 @@
     margin-left: 5rem;
     transform: translateY(-15%);
 }
-#event_ .img1back2{
-    background-color: #FF0096;
-    width: 9.2rem;
-    height: 9.2rem;
-    position: absolute;
-    margin-right: 5rem;
-    right: 0;
-    transform: translateY(179%);
+#event_ .circles img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1.1rem;
 }
-
+#event_ .circles{
+    display: flex;
+    width: 13.6rem;
+    margin: 3.8rem auto 2.8rem;
+}
+#event_ .arrowL{
+    position: absolute;
+    width: 2.8rem;
+    height: 6.3rem;
+    top: 50.6rem;
+    margin-left: 1rem;
+}
+#event_ .arrowR{
+    position: absolute;
+    width: 2.8rem;
+    height: 6.3rem;
+    top: 50.5rem;
+    right: 0;
+    margin-right: 1rem;
+}
 #event_ .detail1{
     font-size: 1.2rem;
-    width: 20.5rem;
-    /* height: 24.3rem; */
-    margin: 4rem auto;
-    line-height: 2.2rem;
+    width: 25.4rem;
+    margin: 2rem auto 3.9rem;
+    line-height: 1.9;
 }
 #event_ .content1 .img1{
-    width: 18.8rem;
-    height: 24.1rem;
-    background: url(/img/image.png);
-    margin: 3.1rem auto;
+    width: 19.6rem;
+    margin: 3rem auto 3.8rem;
+    position: relative
+}
+#event__ .detail2 .img2{
     position: relative;
 }
-#event_ .content2{
-    width: 100%;
+#event_ .img2 .front{
+    position: relative;
+    margin-bottom: 11.3rem;
 }
-#event_ .img2back{
-    background: url(/img/spring-flowers-110671_1280.jpg) center;
-    background-size: cover;
-    opacity: 0.5;
-    width: 29.9rem;
-    height: 18.6rem;
-    transform: rotate(-10deg);
-    margin: -1rem 1rem;
+#event_ .img2 .back{
+    width: 40.8rem;
+    height: 36.7rem;
     position: absolute;
-}
-#event_ .img2{
-    position: relative;
-    background: url(/img/image.png);
-    width: 29.4rem;
-    margin: 7rem auto 4rem;
-    height: 17.2rem;
-    border: 0.5rem solid #fff;
-}
-#event_ .detail2{
-    font-size: 1.1rem;
-    width: 22rem;
-    /* height: 24.3rem; */
-    margin: 2rem auto;
-    line-height: 2.2rem;
+    top: 88rem;
+    left: -5rem;
+    z-index: -1;
 }
 
 
 
 /*sakurako-near*/
 #near_ .mySectionInner{
-    min-height: 36rem;
     position: relative;
 }
 
@@ -193,7 +203,6 @@ font-size: 1.5rem;
 
     #event_ .flower{
         width: 15.6rem;
-        transform: translate(211%, 15%);
     }
     #event_ h1{
         font-size: 8.1rem;

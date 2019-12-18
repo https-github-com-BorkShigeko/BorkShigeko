@@ -238,7 +238,7 @@ html {
     height: 100%;
 }
 #menu .mySectionTitle{
-    margin: 4rem auto 0 3rem
+    margin: 4rem auto 0 3rem;
     color: #FF0096;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -431,7 +431,7 @@ html {
 
 #why .messageMovieP {
     color: #FFFFFF;
-    font-size: 1.2remrem;
+    font-size: 1.2rem;
     position: relative;
     margin-left: 19.2rem;
 }
@@ -652,7 +652,7 @@ font-size: 1rem;
     z-index: 2;
     left: 50%;
     top: 0rem;
-    transform: translateX(-13.5rem);
+    transform: translateX(-14rem);
 }
 
 #media h1{
@@ -660,7 +660,7 @@ font-size: 1rem;
     font-weight: bold;
     font-size: 4rem;
     width: 18.2rem;
-    line-height: 1;
+    line-height: 0.9;
     text-align: center;
     margin: auto;
     border-bottom: 0.8rem solid #FF0096;
@@ -860,7 +860,7 @@ font-size: 1rem;
     font-size: 1.5rem;
     padding: 1rem 2.2rem;
     margin: 2.8rem auto 3.8rem;
-    border: 1px solid #707070;
+    border: 1px solid #FF0096;
     position: relative;
 }
 

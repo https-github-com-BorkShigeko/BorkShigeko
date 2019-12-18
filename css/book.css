@@ -1,6 +1,6 @@
 #book_ .mySectionInner{
     position: relative;
-    top: 4rem;
+    padding-top: 4rem;
 }
 
 #book_ .mySectionTitle{
@@ -9,8 +9,10 @@
 #book_ .flower{
     position: absolute;
     width: 7rem;
-    transform: translate(30%, 17%);
     z-index: 2;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-14rem);
 }
 #book_ h1{
     font-family: Helvetica Neue;
