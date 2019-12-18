@@ -264,6 +264,9 @@ html {
     text-align: right;
     margin-top: 1rem;
 }
+#menu .pic .pc{
+    display: none;
+}
 #menu .menuIcon{
     display: flex;
     margin: 3.3rem auto 0 7.1rem;
@@ -974,7 +977,56 @@ footer {
         padding: 2.5rem 1.5rem;
     }
 
-
+    #menu .menuSideBar {
+        width: 7.1rem;
+    }
+    #menu .mySectionTitle {
+        margin: 8rem auto 0 7.1rem;
+        padding-top: 2.2rem;
+        line-height: 1;
+        padding-bottom: 6.4rem;
+        font-size: 3rem;
+    }
+    #menu .en {
+        margin: 0rem 10.2rem 0 56.1rem;
+    }
+    #menu .en .english {
+        font-size: 4.3rem;
+        border-top: 0.2rem solid #FFEDED;
+        padding-left: 5.65rem;
+    }
+    .myGlobalNav ul li {
+        font-size: 2.5rem;
+        padding: 1rem 0 0 0;
+    }
+    #menu .pic .pc {
+        width: 39rem;
+        height: 44rem;
+        position: absolute;
+        margin: 14.2rem auto 23.7rem 12.9rem;
+    }
+    #menu .en .japanese {
+        padding-right: 3.2rem;
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+    #menu .menuIcon {
+        margin: 0rem auto 0 14.5rem;
+        width: 39.1rem;
+        top: -10rem;
+        position: relative;
+    }
+    #menu .menuIcon a {
+        width: 10rem;
+        padding-right: 3.4rem;
+        padding-left: 0;
+    }
+    #menu .copyright {
+        font-size: 2rem;
+        width: 33.6rem;
+        top: -6rem;
+        margin: 0rem auto 3rem 15.7rem;
+    }
     /*sakurako-mv*/
     #mv .mySectionInner {
         margin-top: 8rem;

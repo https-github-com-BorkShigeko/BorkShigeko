@@ -101,6 +101,10 @@ function getHeader($mode)
         <nav class="myGlobalNav myBack">
             <div class="container mySection myBack">
                 <div class="mySectionInner" id="menu">
+                 <div class="pic">
+           
+                    <img class="pc" src="/img/menu_pic.png" alt="menu pic(pc)">
+                </div>
                 <div class="menuSideBar">
                     <img src="/img/menu_bar.png">
                 </div>
