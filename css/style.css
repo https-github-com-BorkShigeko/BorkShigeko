@@ -1290,99 +1290,141 @@ footer {
         font-size: 1.5rem;
         width: 46.6rem;
         line-height: 2;
-        /* left: 60%; */
-        /* top: -10rem; */
         margin: 2rem auto 1rem 5.5rem;
     }
     #media .newsPaper h3 {
-        height: 15.8rem;
-        line-height: 1;
         width: 50%;
-        font-family: Helvetica Neue;
         font-size: 2.5rem;
         padding: 7.1rem 23rem;
-        /* background-size: 50%; */
-        background-color: #FFEDED;
         border: none;
-        /* border-bottom: 0.1rem solid #FF0096; */
-        /* border-top: 0.1rem solid #FF0096; */
     }
-    #media .mediaButton {
-        font-size: 4.4rem;
-        padding: 1rem;
-        width: 27rem;
-        margin: 4rem auto 0;
+
+
+    #media .online {
+        display: flex;
+        border-top: 0.2rem solid #FF0096;
+    }
+    #media .online p {
+        font-size: 1.5rem;
+        width: 46.6rem;
+        line-height: 2;
+        margin: 2rem auto 1rem 5.5rem;
+    }
+    #media .online h3 {
+        width: 50%;
+        font-size: 2.5rem;
+        padding: 11.1rem 23rem;
+        border: none;
+    }
+
+
+
+    #media .magazine {
+        display: flex;
+        border-top: 0.2rem solid #FF0096;
+    }
+    #media .magazine p {
+        font-size: 1.5rem;
+        width: 46.6rem;
+        line-height: 2;
+        margin: 2rem auto 1rem 5.5rem;
+    }
+    #media .magazine h3 {
+        width: 50%;
+        font-size: 2.5rem;
+        padding: 8.1rem 23rem;
+        border: none;
+    }
+
+
+    #media .tvRadio {
+        display: flex;
+        border-bottom: 0.2rem solid #FF0096;
+        border-top: 0.2rem solid #FF0096;
+    }
+    #media .tvRadio p {
+        font-size: 1.5rem;
+        width: 46.6rem;
+        line-height: 2;
+        margin: 2rem auto 1rem 5.5rem;
+    }
+    #media .tvRadio h3 {
+        width: 50%;
+        font-size: 2.5rem;
+        padding: 5rem 22rem;
+        /* padding-top: 5rem; */
+        border: none;
+    }
+
+    #media .rose {
+        width: 64rem;
+        margin: 3.2rem auto;
     }
 
 
     /*sakurako-news*/
+    #press .flower {
+        width: 15.6rem;
+        top: -1rem;
+        transform: translateX(-30rem);
+    }
+    #press h1 {
+
+        font-size: 8.1rem;
+        width: 41.4rem;
+        line-height: 0.9;
+        border-bottom: 1rem solid #FF0096;
+        transform: translateY(12%);
+    }
+    #press .mySectionTitle {
+        margin-top: 8rem;
+    }
+    #press h2 {
+        font-size: 3.5rem;
+        margin-top: 2rem;
+    }
+    #press .contentNews {
+        padding-top: 2.7rem;
+        padding-bottom: 2.7rem;
+        margin-top: 6rem;
+    }
+    #press .newsContents h3 {
+        font-size: 2rem;
+        width: 38rem;
+        margin: 4.5rem auto 2.9rem;
+    }
+    #press .newsTitle h2 {
+        font-size: 4rem;
+        padding: 0.6rem;
+        width: 17.3rem;
+    }
+    #press .newsContents p {
+        font-size: 1.3rem;
+        width: 30.2rem;
+    }
+    #press .newsMore {
+        margin: 3rem;
+        font-size: 1.6rem;
+    }
+
     #news .mySectionInner {
         position: relative;
-        min-height: 36rem;
+
     }
-
-    #news .newsBack1 {
-        height: 80%;
-        background-color: #FFEDED;
-        width: 50%;
-        position: absolute;
-        z-index: -1;
-        right: 0;
+    #press .contentContact {
+        margin-top: 6rem;
     }
-
-    #news .newsBack2 {
-        height: 69%;
+    #press .contactTitle h2 {
+        font-size: 4rem;
+        padding: 0.7rem;
+        width: 23.3rem;
     }
-
-    #news .newsTitle {
-        font-size: 6rem;
-        padding: 4rem 0 0.5rem 0;
-        border-bottom: 1rem solid #FF0096;
-        width: 29.2rem;
-    }
-
-    #news .newsContents h3 {
-        font-size: 2rem;
-        width: 33rem;
-        letter-spacing: 0rem;
-    }
-
-    #news .newsContents p {
-        width: 40rem;
-    }
-
-    #news .newsMore {
-        margin: 2rem;
-    }
-
-
-    /*sakurako-contact*/
-    #contact .mySectionInner {
-        min-height: 44rem;
-    }
-
-    #contact .contactBack {
-        height: 65.5%;
-        top: 35%;
-    }
-
-    #contact .contactTitle {
-        font-size: 6rem;
-        padding: 1rem 0 1rem 0;
-        border-bottom: 1rem solid #FF0096;
-        width: 29.2rem;
-    }
-
-    #contact .contactButton {
-        width: 70rem;
-        font-size: 3rem;
-        padding: 2.5rem 0;
-        margin: 6rem auto 0;
-        border: 2px solid #707070;
-    }
-
-    #contact .contactButtonBack {
-        transform: translate(2%, -11%);
+    #press .contactButton {
+        width: 41.6rem;
+        font-size: 1.8rem;
+        padding: 3.9rem 2.2rem;
+        margin: 4.3rem auto 3.8rem;
+        border: 2px solid #FF0096;
     }
 
 
