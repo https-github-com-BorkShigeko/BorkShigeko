@@ -22,6 +22,7 @@ getHeader('about');
                         <img src="/img/about_pic1.png">
                     </div>
                     <div class="detail1">
+<!--                        <img class="line1" src="/img/about_line1.png">-->
                         <div class="background1"></div>
                         <h3><span・</span>憧れのアート業界で、起業、夢を掴む</h3>
                         <ul class="history1">
@@ -37,13 +38,14 @@ getHeader('about');
                             <li><p>2009年<br>
                                     自身のワークライフバランスのためにアートコンサルティング業に転業, 15年にわたりアート業界の第一線で活躍</p></li>
                         </ul>
-                    </div>
+                    </img>
                 </div>
             </div>
             <div class="content2">
                 <div class="contentInner">
 
                     <div class="detail2">
+<!--                        <img class="line2" src="/img/about_line2.png">-->
                         <div class="background2"></div>
                         <h3>ベストセラー作家として非認知能力を世に広める</h3>
                         <ul class="history2">

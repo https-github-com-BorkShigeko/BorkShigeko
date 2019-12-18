@@ -1,17 +1,10 @@
 #book_ .mySectionInner{
     position: relative;
-    min-height: 143.1rem;
     top: 4rem;
 }
-#book_ .background2{
-    position: absolute;
-    background-color: #FFEDED;
-    width: 100%;
-    height: 40.5rem;
-    z-index: -1;
-    right: 0;
-    bottom: 0
-;
+
+#book_ .mySectionTitle{
+    position: relative;
 }
 #book_ .flower{
     position: absolute;
@@ -34,6 +27,30 @@
     text-align: center;
     font-size: 1.5rem;
     margin-top: 2rem;
+}
+#book_ .opening{
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 26.2rem;
+    line-height: 1.9;
+    margin: 4.6rem auto;
+
+}
+#book_ .arrowL{
+    position: absolute;
+    width: 2.8rem;
+    height: 6.3rem;
+    top: 123rem;
+    margin-left: 1rem;
+}
+#book_ .arrowR{
+    position: absolute;
+    width: 2.8rem;
+    height: 6.3rem;
+    top: 123rem;
+    right: 0;
+    margin-right: 1rem;
 }
 #book_ .content{
 
@@ -77,8 +94,8 @@
     font-size: 1.2rem;
     width: 25.4rem;
     height: 28.3rem;
-    margin: 2rem auto;
-    line-height: 3rem;
+    margin: 2rem auto 3.9rem;
+    line-height: 1.9;
 }
 #book_ .content2{
     width: 100%;
@@ -113,7 +130,7 @@
     text-align: center;
     padding: 1.5rem 1rem;
     line-height: 1;
-    margin-left: 10.5rem;
+    margin-left: 9.5rem;
     /* margin-top: 1rem; */
     position: relative;
 }
@@ -133,11 +150,21 @@
     position: relative;
 }
 #book_ .detail2{
-    font-size: 1.1rem;
-    width: 18.5rem;
-    /* height: 24.3rem; */
-    margin: 2rem auto;
-    line-height: 2.2rem;
+    font-size: 1.2rem;
+    width: 25.4rem;
+    height: 28.3rem;
+    margin: 2rem auto 3.9rem;
+    line-height: 1.9;
+}
+#book_ .circles img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1.1rem;
+}
+#book_ .circles{
+    display: flex;
+    width: 13.6rem;
+    margin: 4rem auto 2.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -149,7 +176,7 @@
         font-size: 1.2rem;
     }
     #book_ .mySectionInner{
-        min-height: 180rem;
+
         top: 8rem;
     }
     #book_ .background2{
