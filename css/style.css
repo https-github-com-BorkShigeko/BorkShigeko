@@ -34,7 +34,7 @@ body {
     font-weight: bold;
 }
 
-h1,h2,h3 ,h4 {
+h1, h2, h3, h4 {
     font-weight: inherit;
 }
 
@@ -118,8 +118,9 @@ h1,h2,h3 ,h4 {
 html {
     font-size: 3.125vw;
 }
+
 .myBack {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .myBack2 {
@@ -147,7 +148,7 @@ html {
     width: 3rem;
     height: 0.2rem;
     background: #707070;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     left: 50%;
     opacity: 1;
     transition: 0.25s;
@@ -171,7 +172,7 @@ html {
 }
 
 .hamburger.show span:nth-of-type(1) {
-    transform: translate(-50%,-50%) rotate(315deg);
+    transform: translate(-50%, -50%) rotate(315deg);
 }
 
 .hamburger.show span:nth-of-type(2) {
@@ -179,10 +180,10 @@ html {
 }
 
 .hamburger.show span:nth-of-type(3) {
-    transform: translate(-50%,-50%) rotate(-315deg);
+    transform: translate(-50%, -50%) rotate(-315deg);
 }
 
-    /*myGlobalNav*/
+/*myGlobalNav*/
 .myGlobalNav.mySection {
     padding: 5rem 0 0;
 }
@@ -198,25 +199,27 @@ html {
 }
 
 
-
- .topHeader{
+.topHeader {
     height: 4.1rem;
-     background: rgba(255,255,255,0.5);
-    border-bottom: solid 1px rgba(112,112,112,0.1);
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: solid 1px rgba(112, 112, 112, 0.1);
 }
-.topLogo{
+
+.topLogo {
     margin: auto;
     width: 10.4rem;
     height: 4rem;
 }
-.topLogo img{
+
+.topLogo img {
     top: -0.2rem;
     position: relative;
 }
-.forMember{
+
+.forMember {
     margin-right: 0;
     margin-top: 0;
-    background-color:rgba(255,0,150,1);
+    background-color: rgba(255, 0, 150, 1);
     color: #FFFFFF;
     position: relative;
     height: 4.1rem;
@@ -227,119 +230,160 @@ html {
 }
 
 /*sakurako-mv*/
-#mv .mySectionInner{
-    min-height: 77.4rem;
+#mv .mySectionInner {
     position: relative;
     margin-top: 4rem;
 }
-#mv .aboveMv h1{
+
+#mv .aboveMv h1 {
     text-align: center;
-    font-size: 1.5rem;
-    padding-top: 1.95rem;
-    color: #707070;
-}
-#mv .mainVisual .mvPic .spShigeko{
-    width: 80%;
-    right: 0;
-    margin: 3.5rem auto 0;
-    position: relative;
-}
-#mv .mainVisual .mvPic .pcShigeko{
-    display: none;
-}
-#mv .mainVisual .mvBack{
-    background-color: #FF0096;
-    position: absolute;
-    width: 92%;
-    height: 33%;
-    top: 5.2rem;
-    transform: translate(4%, 4%);
-}
-#mv .BorkShigeko{
-    background: url(/img/top_frame.png) center top no-repeat;
-    background-size: contain;
-    height: 35.5rem;
-    /* width: 35.7rem; */
-    position: relative;
-}
-#mv .BorkShigeko h2{
-    text-align: center;
-    margin-top: 1rem;
-    padding-top: 2.9rem;
-    font-size: 5rem;
+    font-size: 1.4rem;
+    padding-top: 2.45rem;
     color: #FF0096;
 }
-#mv .BorkShigeko h3{
-    font-size: 2.5rem;
+
+#mv .mainVisual .mvPic .spShigeko {
+    width: 26.3rem;
+    margin: 2.6rem auto 0;
+    position: relative;
+    border: 0.5rem solid #FF0096;
+}
+
+#mv .mainVisual .mvPic .pcShigeko {
+    display: none;
+}
+
+#mv .BorkShigeko {
+    background: url(/img/top_frame.svg) center top no-repeat;
+    background-size: contain;
+    height: 39.5rem;
+    position: relative;
+    margin: 1.9rem auto 1.1rem;
+}
+
+
+
+#mv .BorkShigeko h2 {
     text-align: center;
-    color: #707070;
-    line-height: 1.2;
+    line-height: 1;
+    padding-top: 0.8rem;
+    font-size: 3.9rem;
+    color: #FF0096;
+}
+
+#mv .BorkShigeko p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 2.8rem;
+    line-height: 1;
+}
+
+#mv .BorkShigeko span {
+    font-size: 1.6rem;
+    color: #FF0096;
+}
+
+#mv .BorkShigeko .job {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1.9rem auto 2.7rem;
+    line-height: 1.7;
+    padding-bottom: 1.9rem;
+    border-bottom: 0.1rem solid #FF0096;
+    width: 24.6rem;
+}
+
+#mv .BorkShigeko .BorkShigekoKeyword span {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1;
+    display: block;
+    padding-bottom: 2.4rem;
+    color: black;
 }
 
 /*sakurako-why*/
-#why .mySectionInner{
+#why .mySectionInner {
     position: relative;
-    min-height: 81.4rem;
 }
-#why .mySectionBack{
+
+#why .mySectionBack {
+    z-index: -1;
     background-color: #FFEDED;
     position: absolute;
     width: 50%;
     left: 0;
     height: 100%;
 }
-#why .shigekoLogo{
-    position: absolute;
-    top: 25%;
-    width: 39.8rem;
-    left: -4rem;
-}
-#why .whyShigeko{
+
+
+#why  .fukidashi{
     position: relative;
-    width: 23.7rem;
-    height: 14.5rem;
-    /* transform: translateX(50%); */
-    /* left: -50%; */
+    width: 24rem;
     margin: auto;
-    top: 2.7rem;
+    top: 1.7rem;
 }
-#why .whyLetter{
+
+#why .inFukidashi {
     position: relative;
-    font-size: 1.2rem;
-    margin-top: 5.4rem;
-    width: 26rem;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.8;
+    top: -8.5rem;
+    text-align: center;
+    font-size: 1.3rem;
     color: #707070;
-    letter-spacing: 0.28rem;
 }
-#why .happyLife{
+
+#why .whyShigeko h3 {
+    font-size: 1.9rem;
+}
+
+#why .whyShigeko span {
+    color: #FF0096;
+}
+
+#why .whyLetter {
+    position: relative;
+    font-size: 1.1rem;
+    width: 27.7rem;
+    margin: auto;
+    line-height: 2;
+}
+
+#why .happyLife {
     color: #FF0096;
     position: relative;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    text-align: center;
+    margin: 2rem auto 0.6rem;
     font-size: 1.5rem;
+    font-weight: bold;
+    width: 27.7rem;
 }
-#why .happyLife img{
-    width: 90%;
+#why .shigekoLogo .logo{
+    height: 7.4rem;
+    position: relative;
     margin: auto;
+    width: 28.7rem;
 }
-#why .messageMovie{
+
+#why .shigekoLogo .line{
+    width: 28rem;
+    margin: 0.5rem auto 3.1rem;
+}
+
+#why .messageMovie {
     background: url("/img/image.png");
     position: relative;
     width: 26.3rem;
     height: 19.4rem;
     margin: auto;
 }
-#why .messageMovieP{
+
+#why .messageMovieP {
     color: #FFFFFF;
-    font-size: 2.1rem;
+    font-size: 1.2remrem;
     position: relative;
-    left: 16rem;
+    margin-left: 19.2rem;
 }
-#why .messageMoveBack{
+
+#why .messageMoveBack {
     bottom: 0;
     background-color: #FF0096;
     width: 100%;
@@ -348,23 +392,24 @@ html {
 }
 
 /*sakurako-registration*/
-#registration .mySectionInner{
+#registration .mySectionInner {
     position: relative;
-    /*min-height: 91rem;*/
 }
-#registration .registrationTitle{
+
+#registration .registrationTitle {
     background-color: #FF0096;
     position: relative;
-    width: 80%;
-    font-size: 2.1rem;
-    height: auto;
+    width: 25.7rem;
+    font-size: 1.9rem;
     padding: 0.7rem;
     color: #ffff;
-    margin: auto;
+    margin: 3.1rem auto 1.7rem;
     text-align: center;
-    transform: translateY(50%);
 }
-#registration .content1back{
+#registration .registrationTitle p{
+font-size: 1rem;
+}
+#registration .content1back {
     position: absolute;
     background-color: #FFEDED;
     width: 64%;
@@ -372,157 +417,288 @@ html {
     right: 0;
     z-index: -1;
 }
-#registration .content1{
-position: relative;
+
+#registration .content1 {
+    position: relative;
 }
-#registration .content1 dt{
-    font-size: 3.5rem;
-    margin-top: 3.5rem;
-    transform: translateX(25%);
-    display: list-item;
-    list-style: none;
-    background: url(/img/01_font.png) no-repeat;
-    background-size: 24%;
-    padding: 0rem 0px 0rem 9rem;
+
+#registration .Content1Title{
+    position: relative;
 }
-#registration .content1 rt{
-    letter-spacing: -2rem;
-    padding-left: 2rem;
-    font-size: 1.6rem;
-}
-#registration .content1 dd{
-    font-size: 1rem;
-    width: 17.1rem;
-    transform: translateX(55%);
-}
-#registration .content2back{
+#registration .Content1Title .font01{
     position: absolute;
+    width: 5.4rem;
+    left: 50%;
+    top: 1.1rem;
+    transform: translateX(-14rem);
+}
+#registration .content1 span{
+    color: #FF0096;
+}
+#registration .Content1Title h2{
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    font-size: 3.1rem;
+    margin: 0rem auto 0rem 10rem;
+}
+#registration .Content1Title rt{
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    letter-spacing: -2.3rem;
+    font-family: sans-serif;
+}
+#registration .content1 h3{
+    font-size: 1.3rem;
+    width: 27.5rem;
+    margin: 1.2rem auto 1.9rem;
+    font-weight: bold;
+}
+#registration .content1 p{
     background-color: #FFEDED;
-    width: 64%;
-    height: 24.2rem;
-    z-index: -1;
-    transform: translateY(10%);
-    left: 0;
+    width: 100%;
+    font-size: 1rem;
+    padding: 3.2rem 2rem;
+    line-height: 1.8;
 }
-#registration .content2{
+
+
+#registration .content2 {
     position: relative;
 }
-#registration .content2 dt{
-    font-size: 3.5rem;
-    letter-spacing: 0.15rem;
-    margin-top: 4.5rem;
-    margin-left: 1.5rem;
-    /* transform: translateX(4%); */
-    display: list-item;
-    list-style: none;
-    background: url(/img/02_font.png) no-repeat;
-    background-size: 27%;
-    padding: 0rem 0px 0rem 9.5rem;
+#registration .Content2Title .font02{
+    position: absolute;
+    width: 5.4rem;
+    left: 50%;
+    top: 1.5rem;
+    transform: translateX(-14rem);
 }
-#registration .content2 rt{
-    letter-spacing: -2rem;
+#registration .content2 span{
+    color: #FF0096;
+}
+#registration .Content2Title h2{
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    font-size: 2.5rem;
+    /* text-align: center; */
+    margin: 3.4rem auto 1.7rem 10rem;
+}
+#registration .Content2Title rt{
+    font-weight: normal;
+    font-size: 1.4rem;
     padding-left: 1rem;
-    font-size: 1.6rem;
+    letter-spacing: -1.8rem;
+    font-family: sans-serif;
 }
-#registration .content2 dd{
+
+#registration .content2 p{
+    background-color: #FFEDED;
+    width: 100%;
     font-size: 1rem;
-    width: 17.1rem;
-    margin-inline-start: 1.8rem
+    padding: 3.2rem 2rem;
+    line-height: 1.8;
 }
-#registration .content3{
+
+
+#registration .content3 {
     position: relative;
 }
-#registration .content3 dt{
-    font-size: 3.5rem;
-    letter-spacing: 0.3rem;
-    margin-top: 6.5rem;
-    margin-left: 7.2rem;
-    display: list-item;
-    list-style: none;
-    background: url(/img/03_font.png) no-repeat;
-    background-size: 35%;
-    padding: 0rem 0rem 0.5rem 9.5rem;
+#registration .Content3Title .font03{
+    position: absolute;
+    width: 5.4rem;
+    left: 50%;
+    top: 1.5rem;
+    transform: translateX(-14rem);
 }
-#registration .content3 rt{
-    letter-spacing: -3.5rem;
-    padding-left: 1rem;
-    font-size: 1.6rem;
+#registration .content3 span{
+    color: #FF0096;
 }
-#registration .content3 dd{
+#registration .Content3Title h2{
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    font-size:3.1rem;
+    /* text-align: center; */
+    margin: 3.4rem auto 1.7rem 10rem;
+}
+#registration .Content3Title rt{
+    font-weight: normal;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    letter-spacing: -3.8rem;
+    font-family: sans-serif;
+}
+
+#registration .content3 p{
+    background-color: #FFEDED;
+    width: 100%;
     font-size: 1rem;
-    width: 28.1rem;
-    margin-inline-start: 2rem;
+    padding: 3.2rem 2rem;
+    line-height: 2.5;
 }
-#registration .registrationFoot{
+
+#registration .registrationFoot {
     display: flex;
     color: #ffff;
     text-align: center;
-    margin-top: 4rem;
 }
-#registration .terms{
+
+#registration .terms {
     background-color: #FF0096;
-    width:50%;
+    width: 50%;
     padding: 2.9rem 0.5rem;
 }
-#registration .terms p{
-font-size: 2.7rem;
+
+#registration .terms p {
+    font-size: 2.7rem;
 }
-#registration .terms span{
+
+#registration .terms span {
     display: block;
     font-size: 1.5rem;
 }
-#registration .register{
+
+#registration .register {
     background-color: #FF0096;
     width: 50%;
     padding: 2.9rem 0.5rem;
     margin-left: 0.1rem;
 }
-#registration .register p{
+
+#registration .register p {
     font-size: 2.7rem;
 }
-#registration .register span{
+
+#registration .register span {
     display: block;
     font-size: 1.5rem;
 }
 
 
 /*sakurako-media*/
-#media .mySectionInner{
+#media .mySectionInner {
     position: relative;
-    min-height: 28.5rem;
+    margin-top: 3rem;
 }
-#media .mediaBack{
-    height: 100%;
-    background-color: #FFEDED;
-    width: 50%;
+
+#media .mediaBack {
     position: absolute;
     z-index: -1;
 }
-#media .mediaBack img{
-    width: 45.7rem;
+
+#media .rose {
+    width: 28.6rem;
     position: relative;
-    transform: translate(-15%, 150%);
-}
-#media .mediaTitle{
-    font-size: 3rem;
-    position: relative;
-    text-align: center;
-    padding: 2.4rem 0 0.5rem 0;
-    border-bottom: 0.8rem solid #FF0096;
-    width: 18.2rem;
-    line-height: 1;
-    margin: auto;
+    margin: 0 auto 5rem;
 }
 
-#media .mediaContents{
-    font-size: 1.2rem;
-    width: 26.2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2.4rem;
+#media .flower {
+    width: 7rem;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 0rem;
+    transform: translateX(-13.5rem);
+}
+
+#media h1{
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 4rem;
+    width: 18.2rem;
+    line-height: 1;
+    text-align: center;
+    margin: auto;
+    border-bottom: 0.8rem solid #FF0096;
+    transform: translateY(12%);
+}
+#media h2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+#media .mediaContents {
+    margin-top: 3rem;
     letter-spacing: 0.1rem;
 }
-#media .mediaButton{
+#media .newsPaper {
+
+}
+#media .newsPaper h3{
+    line-height: 1;
+    font-family: Helvetica Neue;
+    font-size: 1.5rem;
+    padding: 0.7rem 1.6rem;
+    background-color: #FFEDED;
+    border-bottom: 0.1rem solid #FF0096;
+    border-top: 0.1rem solid #FF0096;
+}
+#media .newsPaper p{
+    font-size: 1rem;
+    width: 28.2rem;
+    line-height: 1.7;
+    margin: 0.7rem auto;
+}
+#media .mediaContents {
+    margin-top: 3rem;
+    letter-spacing: 0.1rem;
+}
+#media .online {
+
+}
+#media .online h3{
+    line-height: 1;
+    font-family: Helvetica Neue;
+    font-size: 1.5rem;
+    padding: 0.7rem 1.6rem;
+    background-color: #FFEDED;
+    border-bottom: 0.1rem solid #FF0096;
+    border-top: 0.1rem solid #FF0096;
+}
+#media .online p{
+    font-size: 1rem;
+    width: 27.4rem;
+    margin: 0.7rem auto;
+    line-height: 1.7;
+}
+#media .magazine {
+
+}
+#media .magazine h3{
+    line-height: 1;
+    font-family: Helvetica Neue;
+    font-size: 1.5rem;
+    padding: 0.7rem 1.6rem;
+    background-color: #FFEDED;
+    border-bottom: 0.1rem solid #FF0096;
+    border-top: 0.1rem solid #FF0096;
+}
+#media .magazine p{
+    font-size: 1rem;
+    width: 27.4rem;
+    margin: 0.7rem auto;
+    line-height: 1.7;
+}
+#media .tvRadio {
+
+}
+#media .tvRadio h3{
+    line-height: 1;
+    font-family: Helvetica Neue;
+    font-size: 1.5rem;
+    padding: 0.7rem 1.6rem;
+    background-color: #FFEDED;
+    border-bottom: 0.1rem solid #FF0096;
+    border-top: 0.1rem solid #FF0096;
+}
+#media .tvRadio p{
+    font-size: 1rem;
+    width: 27.4rem;
+    margin: 0.7rem auto;
+    line-height: 1.7;
+}
+#media .mediaButton {
     background-color: #FF0096;
     color: #ffff;
     font-size: 2.3rem;
@@ -534,173 +710,167 @@ font-size: 2.7rem;
 }
 
 
-/*sakurako-news*/
-#news .mySectionInner{
+/*sakurako-press*/
+#press .mySectionInner {
     position: relative;
-    min-height: 24rem;
 }
-#news .newsBack1{
-    height: 80%;
-    background-color: #FFEDED;
-    width: 50%;
+
+#press .flower {
+    width: 7rem;
     position: absolute;
-    z-index: -1;
-    right: 0;
+    z-index: 2;
+    left: 50%;
+    top: 0rem;
+    transform: translateX(-13.5rem);
 }
-#news .newsBack2{
-    background-color: #FFEDED;
-    width: 50%;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    height: 40%;
-    top: 80%;
-}
-#news .newsTitle{
-    font-size: 3rem;
-    position: relative;
-    text-align: center;
-    padding: 2.4rem 0 0.5rem 0;
-    border-bottom: 0.8rem solid #FF0096;
+
+#press h1{
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 4rem;
     width: 18.2rem;
     line-height: 1;
+    text-align: center;
+    margin: auto;
+    border-bottom: 0.8rem solid #FF0096;
+    transform: translateY(12%);
+}
+#press h2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#press .contentNews{
+    background-color: #FFEDED;
+    padding-top: 2rem;
+    padding-bottom: 2.6rem;
+    margin-top: 3rem;
+}
+#press .newsTitle h2{
+    font-family: Helvetica Neue;
+    font-size: 2.7rem;
+    position: relative;
+    padding: 0.4rem;
+    text-align: center;
+    width: 10.7rem;
+    line-height: 1;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: #FF0096;
+}
+
+#press .newsContents h3 {
+    font-size: 1.4rem;
+    width: 25.6rem;
+    margin: 2.8rem auto 1.3rem;
+}
+
+#press .newsContents p {
+    font-size: 1.1rem;
+    width: 25.6rem;
     margin: auto;
 }
 
-#news .newsContents h3{
-    font-size: 1.7rem;
-    width: 26.6rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    letter-spacing: -0.1rem;
-}
-#news .newsContents p{
-    font-size: 1.1rem;
-    width: 26.2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.5rem;
-    letter-spacing: 0.1rem;
-}
-
-#news .newsMore{
+#press .newsMore {
     text-align: center;
     line-height: 1;
-    margin: 1rem;
-    font-size: 1.5rem;
+    margin: 2rem;
+    font-size: 1.4rem;
     text-decoration: underline;
 }
 
 
-
-
 /*sakurako-contact*/
-#contact .mySectionInner{
-    position: relative;
-    min-height: 22rem;
+
+#press .contentContact{
+    margin-top: 3.8rem;
 }
-#contact .contactBack{
-    height: 81%;
-    background-color: #FFEDED;
-    width: 50%;
-    position: absolute;
-    z-index: -1;
-    top: 19%;
-    right: 0;
-}
-#contact .contactTitle{
-    font-size: 3rem;
+#press .contactTitle h2{
+    font-family: Helvetica Neue;
+    font-size: 2.7rem;
     position: relative;
+    padding: 0.5rem;
     text-align: center;
-    padding: 1rem 0 0.5rem 0;
-    border-bottom: 0.8rem solid #FF0096;
-    width: 18.2rem;
+    width: 13.9rem;
     line-height: 1;
     margin: auto;
+    color: #FFFFFF;
+    background-color: #FF0096;
 }
-#contact .contactButton{
+
+#press .contactButton {
+    font-family: Helvetica Neue;
     background: url(/img/contact-button.png);
     text-align: center;
     width: 24.1rem;
     font-size: 1.5rem;
-    padding: 1.8rem 4.1rem;
-    margin: 2rem auto 0;
+    padding: 1rem 2.2rem;
+    margin: 2.8rem auto 3.8rem;
     border: 1px solid #707070;
     position: relative;
-}
-#contact .contactButtonBack{
-    position: absolute;
-    background-color:  #FF0096;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    transform: translate(-15%, -15%);
 }
 
 
 /*footer*/
-footer{
+footer {
     background-color: #FF0096;
     color: #FFFFFF;
     font-family: Helvetica Neue;
-    min-height: 31.7rem;
 }
-.footerLogo{
+
+.footerLogo {
     width: 12.9rem;
     margin: auto;
 }
-.footerSns{
+
+.footerSns {
     display: flex;
     margin: 2rem auto;
     width: 25rem;
 }
-.footerSns img{
+
+.footerSns img {
     width: 6.5rem;
     padding-right: 2rem;
     padding-left: 0.5rem;
 }
+
 .footerSns a:nth-child(4) {
     padding-top: 0.5rem;
 }
-.footerMenu{
+
+.footerMenu {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: auto;
 }
+
 .top {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
-.footerMenu1{
+
+.footerMenu1 {
     display: flex;
     padding: 1rem 4rem 0.5rem 4rem;
 }
-.footerMenu2{
+
+.footerMenu2 {
     display: flex;
     padding: 0rem 2rem 0;
 }
+
 .member {
     width: 200%;
 }
-.copyRight{
+
+.copyRight {
     text-align: center;
     margin-top: 3rem;
     font-family: sans-serif;
     font-size: 1.2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (min-width: 768px) {
@@ -717,28 +887,32 @@ footer{
         width: 10.5rem;
         height: 8rem;
     }
+
     .hamburger span {
         position: absolute;
         width: 5rem;
         height: 0.2rem;
         background: #707070;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         left: 50%;
         opacity: 1;
         transition: 0.25s;
     }
-    .topHeader{
+
+    .topHeader {
 
         height: 8rem;
-        background: rgba(255,255,255,0.5);
-        border-bottom: solid 1px rgba(112,112,112,0.1);
+        background: rgba(255, 255, 255, 0.5);
+        border-bottom: solid 1px rgba(112, 112, 112, 0.1);
     }
-    .topLogo{
+
+    .topLogo {
         margin: auto;
         width: 20.8rem;
         height: 8rem;
     }
-    .forMember{
+
+    .forMember {
         height: 8rem;
         width: 27%;
         transform: translate(271%, -100%);
@@ -749,15 +923,17 @@ footer{
 
 
     /*sakurako-mv*/
-    #mv .mySectionInner{
+    #mv .mySectionInner {
         min-height: 224.2rem;
         margin-top: 8rem;
     }
-    #mv .aboveMv h1{
+
+    #mv .aboveMv h1 {
         font-size: 4rem;
         padding-top: 4.75rem;
     }
-    #mv .mainVisual .mvPic .pcShigeko{
+
+    #mv .mainVisual .mvPic .pcShigeko {
         width: 91.7rem;
         margin-left: auto;
         margin-right: auto;
@@ -765,30 +941,25 @@ footer{
         position: relative;
         display: block;
     }
-    #mv .mainVisual .mvPic .spShigeko{
+
+    #mv .mainVisual .mvPic .spShigeko {
         display: none;
     }
-    #mv .mainVisual .mvBack{
-        background-color: #FF0096;
-        position: absolute;
-        width: 71%;
-        height: 30%;
-        top: 13.3rem;
-        padding: auto;
-        left: 9rem;
-    }
-    #mv .BorkShigeko{
+
+    #mv .BorkShigeko {
         background: url(/img/top_frame_pc.png) center top no-repeat;
         background-size: contain;
         height: 119.1rem;
         position: relative;
     }
-    #mv .BorkShigeko h2{
+
+    #mv .BorkShigeko h2 {
         margin-top: 6.6rem;
         padding-top: 11.7rem;
         font-size: 13rem;
     }
-    #mv .BorkShigeko h3{
+
+    #mv .BorkShigeko h3 {
         font-size: 6rem;
         margin-top: 7rem;
         line-height: 1.5;
@@ -797,111 +968,125 @@ footer{
 
 
     /*sakurako-why*/
-    #why .mySectionInner{
-    min-height: 189rem;
+    #why .mySectionInner {
+        min-height: 189rem;
     }
-    #why .shigekoLogo{
+
+    #why .shigekoLogo {
         top: 25%;
         width: 73rem;
         transform: translate(40%, -25%);
     }
-    #why .whyShigeko{
+
+    #why .whyShigeko {
         position: relative;
         width: 73.1rem;
         height: 36.5rem;
         top: 8rem;
     }
-    #why .whyShigeko img{
+
+    #why .whyShigeko img {
         height: 36.5rem;
     }
-    #why .whyLetter{
+
+    #why .whyLetter {
         font-size: 1.5rem;
         margin-top: 15rem;
         width: 70.8rem;
         line-height: 2.3;
         letter-spacing: 0.4rem;
     }
-    #why .happyLife{
+
+    #why .happyLife {
         margin-top: 7.5rem;
         margin-bottom: 7.5rem;
         font-size: 5rem;
         line-height: 1.4;
     }
-    #why .happyLife img{
+
+    #why .happyLife img {
         margin-top: 3rem;
     }
-    #why .messageMovie{
+
+    #why .messageMovie {
         width: 107rem;
         height: 70.8rem;
     }
-    #why .messageMovieP{
+
+    #why .messageMovieP {
         font-size: 3rem;
         left: 98rem;
     }
-    #why .messageMoveBack{
+
+    #why .messageMoveBack {
         height: 50rem;
     }
 
 
     /*sakurako-registration*/
-
-    #registration .registrationTitle{
+    #registration .registrationTitle {
         width: 65%;
         font-size: 6rem;
         padding: 1.5rem;
         margin-top: 2rem;
-        }
+    }
 
-        #registration .content1back{
-            width: 47%;
-            height: 60.6rem;
-            top: 24rem;
-        }
+    #registration .content1back {
+        width: 47%;
+        height: 60.6rem;
+        top: 24rem;
+    }
 
-        #registration .content1 dt{
-            font-size: 6.9rem;
-            margin-top: 22rem;
-            transform: translateX(56%);
-            display: list-item;
-            background-size: 12%;
-            padding: 0rem 0px 0rem 20rem;
-        }
-        #registration .content1 rt{
-            letter-spacing: -3.5rem;
-            padding-left: 3rem;
-            font-size: 2.5rem;
-        }
-        #registration .content1 dd{
-            font-size: 1.3rem;
-            width: 43.6rem;
-            transform: translateX(168%);
-            margin-top: 3rem;
-            letter-spacing: 0.4rem;
-            line-height: 3;
-        }
+    #registration .content1 dt {
+        font-size: 6.9rem;
+        margin-top: 22rem;
+        transform: translateX(56%);
+        display: list-item;
+        background-size: 12%;
+        padding: 0rem 0px 0rem 20rem;
+    }
+
+    #registration .content1 rt {
+        letter-spacing: -3.5rem;
+        padding-left: 3rem;
+        font-size: 2.5rem;
+    }
+
+    #registration .content1 dd {
+        font-size: 1.3rem;
+        width: 43.6rem;
+        transform: translateX(168%);
+        margin-top: 3rem;
+        letter-spacing: 0.4rem;
+        line-height: 3;
+    }
 
 
-        #registration .content2back{
-            width: 47%;
-            height: 60.6rem;
-            transform: translateY(-45%);
-                }
-#registration .content2{
-    transform: translateY(-58%);
-}
-         #registration .content2 dt {
-             font-size: 6.9rem;
-             letter-spacing: 0.15rem;
-             transform: translateX(1%);
-             background-size: 14%;
-             padding: 0rem 0px 0rem 24rem;
-         }
-    #registration .content2 rt{
+    #registration .content2back {
+        width: 47%;
+        height: 60.6rem;
+        transform: translateY(-45%);
+    }
+
+    #registration .content2 {
+        transform: translateY(-58%);
+    }
+
+    #registration .content2 dt {
+        font-size: 6.9rem;
+        letter-spacing: 0.15rem;
+        transform: translateX(1%);
+        background-size: 14%;
+        padding: 0rem 0px 0rem 24rem;
+    }
+
+    #registration .content2 rt {
         letter-spacing: -3rem;
         padding-left: 1rem;
         font-size: 2.5rem;
     }
-    #registration .content2 dd{
+
+    #registration .content2 dd {
         font-size: 1.3rem;
         width: 43.6rem;
         margin-inline-start: 7.6rem;
@@ -910,74 +1095,85 @@ footer{
         line-height: 3;
     }
 
-    #registration .content3{
+    #registration .content3 {
         transform: translate(8%, -15%);
     }
-#registration .content3 dl{
-    height: 20rem;
-}
-    #registration .content3 dt{
+
+    #registration .content3 dl {
+        height: 20rem;
+    }
+
+    #registration .content3 dt {
         font-size: 6.9rem;
         letter-spacing: 0.7rem;
         background-size: 14%;
         padding: 0rem 0rem 0.5rem 20.5rem;
     }
-    #registration .content3 rt{
+
+    #registration .content3 rt {
         letter-spacing: -7.5rem;
         padding-left: 2rem;
         font-size: 2.5rem;
     }
-    #registration .content3 dd{
+
+    #registration .content3 dd {
         font-size: 1.3rem;
-    font-size: 1.3rem;
+        font-size: 1.3rem;
         width: 43.6rem;
         letter-spacing: 0.4rem;
         line-height: 3;
         transform: translate(135%, -77%);
     }
 
-    #registration .terms{
+    #registration .terms {
         padding: 8.3rem 0;
     }
 
-    #registration .terms p{
+    #registration .terms p {
         font-size: 7rem;
     }
-    #registration .terms span{
+
+    #registration .terms span {
         font-size: 4rem;
     }
-    #registration .register{
+
+    #registration .register {
         padding: 8.3rem 0.5rem;
     }
-    #registration .register p{
+
+    #registration .register p {
         font-size: 7rem;
     }
-    #registration .register span{
+
+    #registration .register span {
         font-size: 4rem;
     }
 
     /*sakurako-media*/
-    #media .mySectionInner{
+    #media .mySectionInner {
         min-height: 43.9rem;
     }
-    #media .mediaBack img{
+
+    #media .mediaBack img {
         width: 66.6rem;
         transform: translate(45%, 173%);
     }
-    #media .mediaTitle{
+
+    #media .mediaTitle {
         font-size: 6rem;
         padding: 3.4rem 0 1rem 0;
         border-bottom: 1rem solid #FF0096;
         width: 29.2rem;
     }
 
-    #media .mediaContents{
+    #media .mediaContents {
         font-size: 1.4rem;
         width: 73.9rem;
         margin-top: 6rem;
         letter-spacing: 0.2rem;
     }
-    #media .mediaButton{
+
+    #media .mediaButton {
         font-size: 4.4rem;
         padding: 1rem;
         width: 27rem;
@@ -986,11 +1182,12 @@ footer{
 
 
     /*sakurako-news*/
-    #news .mySectionInner{
+    #news .mySectionInner {
         position: relative;
         min-height: 36rem;
     }
-    #news .newsBack1{
+
+    #news .newsBack1 {
         height: 80%;
         background-color: #FFEDED;
         width: 50%;
@@ -998,117 +1195,123 @@ footer{
         z-index: -1;
         right: 0;
     }
-    #news .newsBack2{
+
+    #news .newsBack2 {
         height: 69%;
     }
-    #news .newsTitle{
+
+    #news .newsTitle {
         font-size: 6rem;
         padding: 4rem 0 0.5rem 0;
         border-bottom: 1rem solid #FF0096;
         width: 29.2rem;
     }
 
-    #news .newsContents h3{
+    #news .newsContents h3 {
         font-size: 2rem;
         width: 33rem;
         letter-spacing: 0rem;
     }
+
     #news .newsContents p {
         width: 40rem;
     }
 
-    #news .newsMore{
+    #news .newsMore {
         margin: 2rem;
     }
 
 
-
-
     /*sakurako-contact*/
-    #contact .mySectionInner{
+    #contact .mySectionInner {
         min-height: 44rem;
     }
-    #contact .contactBack{
+
+    #contact .contactBack {
         height: 65.5%;
         top: 35%;
     }
-    #contact .contactTitle{
+
+    #contact .contactTitle {
         font-size: 6rem;
         padding: 1rem 0 1rem 0;
         border-bottom: 1rem solid #FF0096;
         width: 29.2rem;
     }
-    #contact .contactButton{
+
+    #contact .contactButton {
         width: 70rem;
         font-size: 3rem;
         padding: 2.5rem 0;
         margin: 6rem auto 0;
         border: 2px solid #707070;
     }
-    #contact .contactButtonBack{
+
+    #contact .contactButtonBack {
         transform: translate(2%, -11%);
     }
 
 
-/*footer*/
-    footer{
+    /*footer*/
+    footer {
         min-height: 52rem;
         margin-top: 10rem;
     }
-    .footerLogo{
+
+    .footerLogo {
         width: 19.8rem;
         padding-top: 3rem;
     }
-    .footerSns{
+
+    .footerSns {
         margin: 4rem 0rem 3rem 37rem;
         width: 60rem;
     }
-    .footerSns img{
+
+    .footerSns img {
         width: 8.8rem;
         padding-right: 0rem;
         padding-left: 0rem;
     }
+
     .footerSns a:nth-child(4) {
         padding-top: 1rem;
     }
-    .footerMenu{
+
+    .footerMenu {
         font-size: 3rem;
     }
-    .top{
+
+    .top {
         font-size: 3rem;
     }
-    .footerMenu1{
+
+    .footerMenu1 {
         padding: 1rem 35rem 0rem 35rem;
     }
-    .footerMenu2{
+
+    .footerMenu2 {
         padding: 0 30rem;
     }
+
     .member {
         width: 80%;
     }
-    .press{
+
+    .press {
         width: 80%;
     }
-    .blog{
+
+    .blog {
         width: 62%;
     }
-    .copyRight{
+
+    .copyRight {
         margin-top: 3rem;
         font-size: 2rem;
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (min-width: 1024px) {
@@ -1118,7 +1321,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 768px) and (orientation: landscape){
+@media screen and (min-width: 768px) and (orientation: landscape) {
     /*デザイン*/
     .inner {
         padding: 0 160px;
