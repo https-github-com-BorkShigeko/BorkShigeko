@@ -33,7 +33,6 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 h1, h2, h3, h4 {
     font-weight: inherit;
 }
@@ -120,7 +119,7 @@ html {
 }
 
 .myBack {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .myBack2 {
@@ -190,8 +189,9 @@ html {
 
 .myGlobalNav ul li {
     font-size: 1.6rem;
-    margin: 0 0 1.5rem;
-    padding: 0;
+    list-style: outside;
+    margin: 0;
+    padding: 0.5rem 0 0 0;
 }
 
 .myGlobalNav ul li:last-of-type {
@@ -228,10 +228,63 @@ html {
     font-size: 1rem;
     padding: 1.5rem 0.9rem;
 }
-
+/*sakurako-menu*/
+#menu .mySectionInner{
+    position: relative;
+}
+#menu .menuSideBar{
+    width: 4rem;
+    position: absolute;
+    height: 100%;
+}
+#menu .mySectionTitle{
+    margin: 4rem auto 0 3rem
+    color: #FF0096;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#menu .en{
+    color: #707070;
+    margin: 0rem 2.2rem 0 7.4rem;
+    line-height: 1;
+}
+#menu .en .english{
+    font-family: Helvetica Neue;
+    font-size: 2.7rem;
+    font-weight: 100;
+    border-top: 0.1rem solid #FFEDED;
+}
+#menu li:nth-of-type(7){
+    border-bottom: 0.1rem solid #FFEDED;
+    padding-bottom: 0.5rem;
+}
+#menu .en .japanese{
+    color: #FF0096;
+    font-size: 1.2rem;
+    text-align: right;
+    margin-top: 1rem;
+}
+#menu .menuIcon{
+    display: flex;
+    margin: 3.3rem auto 0 7.1rem;
+    width: 23rem;
+}
+#menu .menuIcon a{
+    width: 7rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+}
+#menu .copyright{
+    color: #FF0096;
+    font-size: 1.1rem;
+    width: 18rem;
+    position: relative;
+    margin: 1rem auto 1rem 9rem;
+}
 /*sakurako-mv*/
 #mv .mySectionInner {
-    position: relative;
+    font-size: 1.2rem;
+    text-align: right;
     margin-top: 4rem;
 }
 
