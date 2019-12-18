@@ -5,29 +5,12 @@
     /*top: 4rem;*/
     padding-top: 4rem;
 }
-#about_ .background1{
-    position: absolute;
-    background-color: #FFEDED;
-    width: 50%;
-    height: 41%;
-    z-index: -1;
-    top: 34.2rem;
-    right: 0;
-}
-#about_ .background2{
-    position: absolute;
-    position: absolute;
-    background-color: #FFEDED;
-    width: 50%;
-    height: 41%;
-    z-index: -1;
-    top: 36.2rem;
-    right: 0;
-}
+
+
 #about_ .sign{
     position: absolute;
     width: 15.3rem;
-    top: 36rem;
+    top: 44rem;
     left: 14.4rem;
     z-index: 1;
 }
@@ -53,6 +36,10 @@
     font-size: 1.5rem;
     margin-top: 2rem;
 }
+#about_  .content1 .img1{
+    width: 23rem;
+    margin: 3.3rem auto 1.9rem;
+}
 #about_ .content{
 
 }
@@ -62,68 +49,88 @@
 #about_ .img1back{
     position: absolute;
     background-color: #FF0096;
-    width: 36%;
-    height: 7.2%;
+    width: 11.6rem;
+    height: 11.6rem;
+    z-index: -1;
     right: 0;
-    transform: translateY(-24%);
+    transform: translate(-2rem -2rem);
+    transform: translate(-0.9rem, -2rem);
 }
-#about_ .img1{
-    width: 26.4rem;
-    height: 31.2rem;
-    background: url(/img/image.png);
-    margin: 3rem auto;
-    position: relative;
+
+#about_ .detail1 .background1{
+    position: absolute;
+    background-color: #FFEDED;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+}
+#about_ .detail2 .background2{
+    position: absolute;
+    background-color: #FFEDED;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
 }
 #about_ .detail1{
-    font-size: 1.4rem;
-    width: 26.4rem;
-    margin: 3rem auto;
-    line-height: 3rem;
-}
-#about_ .content2{
-    width: 100%;
- }
-#about_ .img2back{
-    position: absolute;
-    background-color: #FF0096;
-    width: 36%;
-    height: 7.2%;
-    left: 0;
-
-    /*transform: translateY(194%);*/
-}
-#about_ .img2{
-    width: 26.4rem;
-    height: 31.2rem;
-    background: url(/img/image.png);
-    margin: 4rem auto 5rem;
-    position: relative;
+position: relative;
 }
 #about_ .detail2{
-    font-size: 1.4rem;
-    width: 26.4rem;
-    margin: 3rem auto;
-    line-height: 3rem;
-}
-#about_ .aboutFooter{
-    background-color: #FF0096;
-    color: #fff;
-    min-height: 13.6rem;
-}
-.aboutFooter p{
-    font-size: 2.7rem;
-    text-decoration: underline;
     position: relative;
-
+}
+#about_ .detail1 h3{
+    background-color: #FF0096;
+    color: #FFFFFF;
+    padding: 1rem;
     text-align: center;
-    padding-top: 1rem;
+    line-height: 1;
 }
- .footerSns{
-    display: flex;
-    margin: 2rem auto;
-    width: 25rem;
+#about_ .detail2 h3{
+    background-color: #FF0096;
+    color: #FFFFFF;
+    padding: 1.2rem;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.3rem;
 }
 
+#about_ .detail1 .history1 li{
+list-style: outside;
+    padding-bottom: 3rem;
+}
+#about_ .detail2 .history2 li{
+    list-style: outside;
+    padding-bottom: 3rem;
+}
+#about_ .detail1 .history1{
+    margin: 2rem 1.7rem 0rem 4.5rem;
+    font-size: 1.4rem;
+    line-height: 1.7;
+}
+#about_ .detail2 .history2{
+    margin: 2rem 1.7rem 0rem 4.5rem;
+    font-size: 1.4rem;
+    padding-bottom: 10rem;
+    line-height: 1.7;
+}
+
+
+#about_ .detail2{
+  position: relative;
+}
+
+#about_ .detail2 .img2 .front{
+position: relative;
+}
+#about_ .detail2 .img2 .back{
+    width: 41.9rem;
+    height: 36.7rem;
+    position: absolute;
+    top: 72rem;
+    left: -5rem;
+    z-index: -1;
+}
 
 .mySectionTitle{
     position: relative;

@@ -150,12 +150,12 @@ function getFooter()
      </main>
         <footer>
 
-                <img class="footerLogo" src="img/footerShigekoBork.png">
+                <img class="footerLogo" src="/img/footerShigekoBork.png">
                 <div class="footerSns">
                     <a href="..."><img src="/img/about_facebook.png"></a>
-                    <a href="..."><img src="img/about_instagram.png"></a>
-                    <a href="..."><img src="img/about_twitter.png"></a>
-                    <a href="..."><img src="img/about_youtube.png"></a>
+                    <a href="..."><img src="/img/about_instagram.png"></a>
+                    <a href="..."><img src="/img/about_twitter.png"></a>
+                    <a href="..."><img src="/img/about_youtube.png"></a>
                 </div>
                 <div class="footerMenu">
                     <a class="top" href="..."><p>TOP</p></a>
