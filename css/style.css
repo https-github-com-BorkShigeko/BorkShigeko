@@ -977,20 +977,19 @@ footer {
 
     /*sakurako-mv*/
     #mv .mySectionInner {
-        min-height: 224.2rem;
         margin-top: 8rem;
     }
 
     #mv .aboveMv h1 {
         font-size: 4rem;
-        padding-top: 4.75rem;
+        padding-top: 5.65rem;
     }
 
     #mv .mainVisual .mvPic .pcShigeko {
-        width: 91.7rem;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 9.3rem;
+        width: 101rem;
+        height: 79.4rem;
+        margin: 4.7rem auto 3.8rem;
+        border: 1rem solid #FF0096;
         position: relative;
         display: block;
     }
@@ -1003,58 +1002,87 @@ footer {
         background: url(/img/top_frame_pc.png) center top no-repeat;
         background-size: contain;
         height: 119.1rem;
-        position: relative;
+        margin: 0rem;
     }
 
     #mv .BorkShigeko h2 {
-        margin-top: 6.6rem;
-        padding-top: 11.7rem;
+        margin-top: 3.5rem;
+        padding-top: 0;
         font-size: 13rem;
     }
 
-    #mv .BorkShigeko h3 {
-        font-size: 6rem;
-        margin-top: 7rem;
-        line-height: 1.5;
 
+    #mv .BorkShigeko .job {
+        font-size: 3.2rem;
+        margin: 4.7rem auto 9.2rem;
+        line-height: 1.7;
+        padding-bottom: 3.1rem;
+        border-bottom: 0.3rem solid #FF0096;
+        width: 69.2rem;
     }
-
+    #mv .BorkShigeko .BorkShigekoKeyword span {
+        font-size: 3.2rem;
+        text-align: center;
+        line-height: 1;
+        display: block;
+        padding-bottom: 6.6rem;
+        color: black;
+    }
+#mv .BorkShigeko p {
+    font-size: 4.6rem;
+    padding-top: 9.4rem;
+}
+    #mv .BorkShigeko span {
+        font-size: 6.2rem;
+    }
 
     /*sakurako-why*/
     #why .mySectionInner {
-        min-height: 189rem;
+
     }
 
-    #why .shigekoLogo {
-        top: 25%;
-        width: 73rem;
-        transform: translate(40%, -25%);
+    #why .whyShigeko h3 {
+        font-size: 5.4rem;
     }
+    #why .inFukidashi {
 
+        top: -23.5rem;
+
+        font-size: 3.7rem;
+
+    }
     #why .whyShigeko {
-        position: relative;
+
+    }
+
+    #why .fukidashi {
         width: 73.1rem;
-        height: 36.5rem;
-        top: 8rem;
+        top: 6.6rem;
     }
-
-    #why .whyShigeko img {
-        height: 36.5rem;
+    #why .shigekoLogo .line {
+        width: 115.7rem;
+        margin: 0rem auto 7.8rem;
     }
-
+    #why .shigekoLogo .logo {
+        height: 17.3rem;
+        position: relative;
+        margin: auto;
+        width: 58.7rem;
+    }
     #why .whyLetter {
         font-size: 1.5rem;
-        margin-top: 15rem;
-        width: 70.8rem;
+        margin-top: 0;
+        width: 73rem;
         line-height: 2.3;
         letter-spacing: 0.4rem;
     }
 
     #why .happyLife {
         margin-top: 7.5rem;
-        margin-bottom: 7.5rem;
-        font-size: 5rem;
-        line-height: 1.4;
+        margin-bottom: 2.5rem;
+        font-size: 2.4rem;
+        line-height: 2;
+        width: 73.3rem;
     }
 
     #why .happyLife img {
@@ -1062,121 +1090,133 @@ footer {
     }
 
     #why .messageMovie {
-        width: 107rem;
-        height: 70.8rem;
+        width: 90rem;
+        height: 61.1rem;
     }
 
     #why .messageMovieP {
         font-size: 3rem;
-        left: 98rem;
+        padding-bottom: 4rem;
+        margin: 2rem auto 0 87.2rem;
     }
 
+
+
     #why .messageMoveBack {
-        height: 50rem;
+        height: 40.8rem;
     }
 
 
     /*sakurako-registration*/
     #registration .registrationTitle {
-        width: 65%;
-        font-size: 6rem;
+        width: 83rem;
+        font-size: 5rem;
         padding: 1.5rem;
-        margin-top: 2rem;
+        /* margin-top: 7.3rem; */
+        margin: 7.3rem auto 8.6rem;
     }
-
-    #registration .content1back {
-        width: 47%;
-        height: 60.6rem;
-        top: 24rem;
+    #registration .registrationTitle p {
+        font-size: 3rem;
+        line-height: 1;
     }
-
-    #registration .content1 dt {
-        font-size: 6.9rem;
-        margin-top: 22rem;
-        transform: translateX(56%);
-        display: list-item;
-        background-size: 12%;
-        padding: 0rem 0px 0rem 20rem;
+    #registration .Content1Title .font01 {
+        width: 16.1rem;
+        transform: translateX(-42rem);
     }
-
     #registration .content1 rt {
-        letter-spacing: -3.5rem;
+        letter-spacing: -4.5rem;
         padding-left: 3rem;
         font-size: 2.5rem;
     }
-
-    #registration .content1 dd {
-        font-size: 1.3rem;
-        width: 43.6rem;
-        transform: translateX(168%);
-        margin-top: 3rem;
-        letter-spacing: 0.4rem;
-        line-height: 3;
+    #registration .content1 h3 {
+        font-size: 3.7rem;
+        width: 81.1rem;
+        margin: 2.2rem auto;
+    }
+    #registration .Content1Title h2 {
+        font-weight: bold;
+        font-family: Helvetica Neue;
+        font-size: 7.6rem;
+        margin: 0rem auto 0rem 42.5rem;
     }
 
 
-    #registration .content2back {
-        width: 47%;
-        height: 60.6rem;
-        transform: translateY(-45%);
+    #registration .content1 p {
+        width: 83rem;
+        margin: auto;
+        font-size: 1.5rem;
+        padding: 4.3rem 2.6rem;
     }
 
-    #registration .content2 {
-        transform: translateY(-58%);
-    }
 
-    #registration .content2 dt {
-        font-size: 6.9rem;
-        letter-spacing: 0.15rem;
-        transform: translateX(1%);
-        background-size: 14%;
-        padding: 0rem 0px 0rem 24rem;
-    }
 
+    #registration .Content2Title .font02 {
+        width: 16.1rem;
+        transform: translateX(-42rem);
+    }
     #registration .content2 rt {
-        letter-spacing: -3rem;
-        padding-left: 1rem;
+        letter-spacing: -4.5rem;
+        padding-left: 3rem;
         font-size: 2.5rem;
     }
-
-    #registration .content2 dd {
-        font-size: 1.3rem;
-        width: 43.6rem;
-        margin-inline-start: 7.6rem;
-        margin-top: 3rem;
-        letter-spacing: 0.4rem;
-        line-height: 3;
+    #registration .content2 h3 {
+        font-size: 3.7rem;
+        width: 81.1rem;
+        margin: 2.2rem auto;
+    }
+    #registration .Content2Title {
+        margin: 8rem auto 2rem;
+    }
+    #registration .Content2Title h2 {
+        font-weight: bold;
+        font-family: Helvetica Neue;
+        font-size: 7.6rem;
+        margin: 0rem auto 0rem 42.5rem;
+        line-height: 1;
+    }
+    #registration .content2 p {
+        width: 83rem;
+        margin: auto;
+        font-size: 1.5rem;
+        padding: 4.3rem 2.6rem;
     }
 
-    #registration .content3 {
-        transform: translate(8%, -15%);
-    }
 
-    #registration .content3 dl {
-        height: 20rem;
-    }
 
-    #registration .content3 dt {
-        font-size: 6.9rem;
-        letter-spacing: 0.7rem;
-        background-size: 14%;
-        padding: 0rem 0rem 0.5rem 20.5rem;
-    }
 
+    #registration .Content3Title .font03 {
+        width: 16.1rem;
+        top: 0;
+        transform: translateX(-42rem);
+    }
     #registration .content3 rt {
-        letter-spacing: -7.5rem;
-        padding-left: 2rem;
+        letter-spacing: -8.5rem;
+        padding-left: 7rem;
         font-size: 2.5rem;
     }
-
-    #registration .content3 dd {
-        font-size: 1.3rem;
-        font-size: 1.3rem;
-        width: 43.6rem;
-        letter-spacing: 0.4rem;
-        line-height: 3;
-        transform: translate(135%, -77%);
+    #registration .content3 h3 {
+        font-size: 3.7rem;
+        width: 81.1rem;
+        margin: 2.2rem auto;
     }
+    #registration .Content3Title {
+        margin: 8rem auto 3rem;
+    }
+    #registration .Content3Title h2 {
+        font-weight: bold;
+        font-family: Helvetica Neue;
+        font-size: 7.6rem;
+        margin: 0rem auto 0rem 42.5rem;
+        line-height: 1;
+    }
+    #registration .content3 p {
+        width: 83rem;
+        margin: 0 auto 9rem;
+        font-size: 1.5rem;
+        padding: 4.3rem 2.6rem;
+    }
+
+
 
     #registration .terms {
         padding: 8.3rem 0;
@@ -1204,9 +1244,28 @@ footer {
 
     /*sakurako-media*/
     #media .mySectionInner {
-        min-height: 43.9rem;
-    }
 
+    }
+    #media .flower {
+        width: 15.6rem;
+        top: -1rem;
+        transform: translateX(-30rem);
+    }
+    #media h1 {
+
+        font-size: 8.1rem;
+        width: 41.4rem;
+        line-height: 0.9;
+        border-bottom: 1rem solid #FF0096;
+        transform: translateY(12%);
+    }
+    #media .mySectionTitle {
+        margin-top: 8rem;
+    }
+    #media h2 {
+        font-size: 3.5rem;
+        margin-top: 2rem;
+    }
     #media .mediaBack img {
         width: 66.6rem;
         transform: translate(45%, 173%);
@@ -1220,12 +1279,34 @@ footer {
     }
 
     #media .mediaContents {
-        font-size: 1.4rem;
-        width: 73.9rem;
-        margin-top: 6rem;
-        letter-spacing: 0.2rem;
+        margin-top: 4rem;
+        letter-spacing: 0.3rem;
     }
-
+    #media .newsPaper {
+        display: flex;
+        border-top: 0.2rem solid #FF0096;
+    }
+    #media .newsPaper p {
+        font-size: 1.5rem;
+        width: 46.6rem;
+        line-height: 2;
+        /* left: 60%; */
+        /* top: -10rem; */
+        margin: 2rem auto 1rem 5.5rem;
+    }
+    #media .newsPaper h3 {
+        height: 15.8rem;
+        line-height: 1;
+        width: 50%;
+        font-family: Helvetica Neue;
+        font-size: 2.5rem;
+        padding: 7.1rem 23rem;
+        /* background-size: 50%; */
+        background-color: #FFEDED;
+        border: none;
+        /* border-bottom: 0.1rem solid #FF0096; */
+        /* border-top: 0.1rem solid #FF0096; */
+    }
     #media .mediaButton {
         font-size: 4.4rem;
         padding: 1rem;
